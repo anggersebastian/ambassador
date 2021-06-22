@@ -1,0 +1,93 @@
+.mb{
+    &1{
+        margin-bottom: 1rem;
+    }
+    &2{
+        margin-bottom: 2rem;
+    }
+}
+
+.mt1{
+    margin-top:1rem;
+}
+.mt2{
+    margin-top: 2rem;
+}
+.mt3{
+    margin-top: 3rem;
+}
+.mr1{
+    margin-right:1rem;
+}
+
+.flex{
+    display: flex;
+    &-row{
+        flex-direction: row;
+    }
+    &-wrap{
+        flex-wrap: wrap;
+    }
+}
+
+.align{
+    &-center{
+        align-items: center;
+    }
+}
+
+.justify{
+    &-center{
+        justify-content: center;
+    }
+
+    &-around{
+        justify-content: space-around;
+    }
+
+    &-between{
+        justify-content: space-between;
+    }
+}
+
+.v-middle{
+    vertical-align: middle!important;
+}
+
+.flat{
+    text-transform: capitalize;
+    display: inline;
+    padding: 4px 10px;
+    border-radius: 5px !important;
+    font-size: 11px;
+    color: #fff;
+    &-warning{
+        background-color: #ffc107;
+        color:#94660c;
+    }
+    &-danger{
+        background-color: #dc3545;
+        color: #fff;
+    }
+    &-success{
+        background-color: #20c997;
+        color: #5b841b;
+    }
+    &-primary{
+        color: #2e4453;
+        background-color:#adb6bb ;
+    }
+}
+
+.show-sm{
+    display: none;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.pointer{
+    cursor: pointer;
+}

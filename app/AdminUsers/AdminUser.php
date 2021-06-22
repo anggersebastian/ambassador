@@ -1,0 +1,50 @@
+<?php
+
+namespace App\AdminUsers;
+
+use Cartalyst\Sentinel\Users\EloquentUser;
+
+use Illuminate\Notifications\Notifiable;
+
+/**
+ * Class AdminUser
+ */
+class AdminUser extends EloquentUser
+{
+    use Notifiable;
+    protected $table = 'admin_users';
+
+    public $timestamps = true;
+
+    protected $hidden = [
+        'password', 'remember_token',
+    ];
+    protected $guarded = [];
+
+    public function role(){
+        $child  = $this->hasMany('App\AdminUsers\RoleUsers', 'user_id');
+
+        return $child;
+    }
+
+    public function newRole()
+    {
+        return $this->belongsToMany(\App\AdminUsers\Roles::class, 'role_users',  'user_id', 'role_id');
+    }
+
+    public function group(){
+        return $this->belongsTo('App\AdminUsers\AdminGroup', 'group_id');
+    }
+
+    public function getFullNameAttribute() {
+        return $this->first_name . ' ' . $this->last_name;
+    }
+
+    public function product(){
+        return $this->belongsTo('App\Product\Product', 'product_id');
+    }
+
+    public function order(){
+        return $this->belongsTo('App\Order\Order', 'order_id');
+    }
+}

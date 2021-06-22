@@ -1,0 +1,37 @@
+@media(max-width: 767px) {
+
+    .main-header {
+        .logo {
+            display: none;
+        }
+    }
+
+    .content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .edit-order{
+        .col-md-8{
+            border-right:none;
+            padding-right:15px;
+        }
+        .col-md-4{
+            padding: 15px;
+        }
+    }
+
+    .hide-sm{
+        display: none;
+    }
+
+    .show-sm{
+        display:flex;
+    }
+
+    .follow-up{
+        .phone-number{
+            font-size: 11px;
+        }
+    }
+  }
