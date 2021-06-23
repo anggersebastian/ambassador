@@ -39,12 +39,4 @@ class AdminUser extends EloquentUser
     public function getFullNameAttribute() {
         return $this->first_name . ' ' . $this->last_name;
     }
-
-    public function product(){
-        return $this->belongsTo('App\Product\Product', 'product_id');
-    }
-
-    public function order(){
-        return $this->belongsTo('App\Order\Order', 'order_id');
-    }
 }

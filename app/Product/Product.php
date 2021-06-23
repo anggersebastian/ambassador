@@ -56,7 +56,4 @@ class Product extends Model{
         return $this->hasMany(FacebookReport::class);
     }
 
-    public function users(){
-        return $this->hasMany('App\AdminUsers\AdminUser', 'product_id');
-    }
 }

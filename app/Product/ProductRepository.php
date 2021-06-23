@@ -2,7 +2,6 @@
 namespace App\Product;
 
 use App\Order\OrderDetail;
-use App\AdminUsers\AdminUser;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 class ProductRepository{
@@ -28,7 +27,6 @@ class ProductRepository{
         $res = $product->map(function($q){
             return [
                 'id' => $q->id,
-                'product_id' => $q->id,
                 'name' => $q->name,
                 'code'=> $q->code,
                 'slug' => $q->slug,

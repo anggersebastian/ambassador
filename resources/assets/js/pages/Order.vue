@@ -633,7 +633,7 @@ export default {
                         cod_fee:this.$formatCurrency(item.cod_fee),
                         total:item.paid_with == 'cod' ? this.$formatCurrency(item.total_price) : this.$formatCurrency(parseFloat(item.total_price) + 4400),
                         product_price:item.paid_with == 'cod'?  this.$formatCurrency(item.product_price) :  this.$formatCurrency(item.product_price + item.unique_fee),
-                        admin:'Amelia',
+                        admin:'Bastian',
                         order_id:item.invoice_number,
                         unique:this.$formatCurrency(item.unique_fee),
                         crypt_invoice:item.crypt_invoice

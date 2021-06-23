@@ -15,14 +15,13 @@ class CreateLandingProductTable extends Migration
     {
         Schema::create('landing_product', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id')->unsigned();
+            $table->integer('product_id')->nullable();
             $table->string('slug')->unique();
             $table->string('title');
             $table->text('html_content');
             $table->text('form_generator');
             $table->timestamps();
             $table->softDeletes();
-
         });
     }
 

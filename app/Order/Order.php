@@ -64,7 +64,4 @@ class Order extends Model
         return $this->hasMany(Myshortcart::class);
     }
 
-    public function users(){
-        return $this->hasMany(App\Order\Order::class, 'order_id', 'id');
-    }
 }

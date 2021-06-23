@@ -111,7 +111,7 @@
                                     <img :src="item.main_image" alt="" v-if="item.main_image" style="width:70px;">
                                 </td>
                                 <td class="v-middle">
-                                    <a :href="`https://127.0.0.1:4000/form-order?product=${item.slug}`" style="text-transform:uppercase; text-decoration:none;" target="_blank">{{$readMore(item.name).first}}</a>
+                                    <a :href="`https://dropy.id/form-order?product=${item.slug}`" style="text-transform:uppercase; text-decoration:none;" target="_blank">{{$readMore(item.name).first}}</a>
                                 </td>
                                 <td class="v-middle">
                                     {{item.code}}

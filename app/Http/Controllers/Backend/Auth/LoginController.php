@@ -7,7 +7,6 @@ use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 use App\AdminUsers\AdminUserRepository;
 use App\Notifications\MailResetPasswordToken;
-use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller{
     use AuthenticatesUsers;
