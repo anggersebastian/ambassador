@@ -98193,14 +98193,14 @@ var firstMessage = function firstMessage(arg) {
   var district = arg.district ? arg.district : null;
   var address = district ? "*Alamat Pengiriman*:".concat(arg.penerima, ", +").concat(arg.phone, ", ").concat(arg.address, ", ").concat(arg.district, ",").concat(arg.city, ",").concat(arg.province, " %0a") : '';
   var ongkir = arg.shipping_fee > 0 ? "*Ongkir*: Rp ".concat(arg.shipping_fee, " %0a") : '';
-  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya Ridwan CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Nomor Invoice*:").concat(arg.order_id, "%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a*Biaya Transfer*: Rp 4.400 %0a").concat(ongkir, "*Kode Unik*: Rp ").concat(arg.unique, " %0a*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPesanan Anda akan kami Proses setelah Anda Lakukan Transfer sejumlah *Rp ").concat(arg.total, "*.Silahkan klik link berikut untuk menuju halaman pembayaran: https://dropy.id/thanks?order=").concat(arg.invoice);
+  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya ").concat(arg.admin, " CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Nomor Invoice*:").concat(arg.order_id, "%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a*Biaya Transfer*: Rp 4.400 %0a").concat(ongkir, "*Kode Unik*: Rp ").concat(arg.unique, " %0a*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPesanan Anda akan kami Proses setelah Anda Lakukan Transfer sejumlah *Rp ").concat(arg.total, "*.Silahkan klik link berikut untuk menuju halaman pembayaran: https://dropy.id/thanks?order=").concat(arg.invoice);
 };
 
 var codMessage = function codMessage(arg) {
   var district = arg.district ? arg.district : null;
   var address = district ? "*Alamat Pengiriman*:".concat(arg.penerima, ", +").concat(arg.phone, ", ").concat(arg.address, ", ").concat(arg.district, ",").concat(arg.city, ",").concat(arg.province, " %0a") : '';
   var ongkir = arg.shipping_fee > 0 ? "*Ongkir*: Rp ".concat(arg.shipping_fee, " %0a*COD Fee*:Rp ").concat(arg.cod_fee, "%0a") : '';
-  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya Ridwan CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a").concat(ongkir, "*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPembayaran dilakukan setelah Barang Sampai (COD), Mohon siapkan pembayaran sejumlah *Rp ").concat(arg.total, "*");
+  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya ").concat(arg.admin, " CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a").concat(ongkir, "*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPembayaran dilakukan setelah Barang Sampai (COD), Mohon siapkan pembayaran sejumlah *Rp ").concat(arg.total, "*");
 };
 
 var secondMessage = function secondMessage(arg) {
