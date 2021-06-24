@@ -15,6 +15,15 @@ class OrderController extends Controller
         $this->order = $order;
     }
 
+    public function getUser(){
+        $name = \Sentinel::check()->first_name;
+        
+        return response()->json([
+            "name"=>$name
+            
+        ]);
+    }
+
     public function index(Request $request)
     {
         return view('backend.order.index');

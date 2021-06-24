@@ -2,6 +2,7 @@
 
 Route::group(['prefix' => 'order', 'as' => 'order.'], function () {
     Route::get('/', 'OrderController@index');
+    Route::get('/get-name', 'OrderController@getUser');
     Route::get('/json', 'OrderController@indexJson');
     Route::post('/{id}/status', 'OrderController@setStatus');
     Route::post('/bulk', 'OrderController@bulkSetStatus');

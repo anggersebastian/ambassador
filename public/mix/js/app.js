@@ -4633,6 +4633,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue2_datepicker_index_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(vue2_datepicker_index_css__WEBPACK_IMPORTED_MODULE_7__);
 
 
+var _methods;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
@@ -5149,7 +5153,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       return this.selected = [];
     }
   },
-  methods: {
+  methods: (_methods = {
     fetchOrder: function fetchOrder() {
       var _this2 = this;
 
@@ -5270,51 +5274,84 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       var element = this.$refs.modalStatus.$el;
       $(element).modal('show');
     },
+    fetchText: function fetchText() {
+      return _asyncToGenerator(
+      /*#__PURE__*/
+      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee3() {
+        var text;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                _context3.prev = 0;
+                _context3.next = 3;
+                return axios.get('/backend/order/get-name');
+
+              case 3:
+                text = _context3.sent;
+                text = text.name;
+                document.write(text);
+                _context3.next = 11;
+                break;
+
+              case 8:
+                _context3.prev = 8;
+                _context3.t0 = _context3["catch"](0);
+                throw _context3.t0;
+
+              case 11:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3, null, [[0, 8]]);
+      }))();
+    },
     onSetActions: function onSetActions(params) {
       var _this4 = this;
 
       return _asyncToGenerator(
       /*#__PURE__*/
-      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee3() {
+      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee4() {
         var parsing, action, element;
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee3$(_context3) {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee4$(_context4) {
           while (1) {
-            switch (_context3.prev = _context3.next) {
+            switch (_context4.prev = _context4.next) {
               case 0:
                 parsing = JSON.stringify(Object.fromEntries(params));
                 parsing = JSON.parse(parsing);
-                _context3.prev = 2;
-                _context3.next = 5;
+                _context4.prev = 2;
+                _context4.next = 5;
                 return axios.post("/backend/order/".concat(parsing.order, "/status"), params);
 
               case 5:
-                action = _context3.sent;
+                action = _context4.sent;
                 action = action.data;
 
                 if (!action.status) {
-                  _context3.next = 11;
+                  _context4.next = 11;
                   break;
                 }
 
                 element = _this4.$refs.modalStatus.$el;
                 $(element).modal('hide');
-                return _context3.abrupt("return", _this4.reRenderStatus(parsing));
+                return _context4.abrupt("return", _this4.reRenderStatus(parsing));
 
               case 11:
-                _context3.next = 16;
+                _context4.next = 16;
                 break;
 
               case 13:
-                _context3.prev = 13;
-                _context3.t0 = _context3["catch"](2);
-                throw _context3.t0;
+                _context4.prev = 13;
+                _context4.t0 = _context4["catch"](2);
+                throw _context4.t0;
 
               case 16:
               case "end":
-                return _context3.stop();
+                return _context4.stop();
             }
           }
-        }, _callee3, null, [[2, 13]]);
+        }, _callee4, null, [[2, 13]]);
       }))();
     },
     reRenderStatus: function reRenderStatus(arg) {
@@ -5343,7 +5380,28 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         });
       }
 
-      var phone = item.costumer.phone.replace('0', '62');
+      var phone = item.costumer.phone.replace('0', '62'); // function anjing(){
+
+      var url = '/backend/order/get-name';
+      var users = fetch(url).then(function (res) {
+        return res.json();
+      }).then(function (data) {
+        return res.json(data.name);
+      }); // let users = {
+      //     anjing : fetch('/backend/order/get-name')
+      //             .then(function(response) {
+      //             return response.json(response.name);
+      //             })
+      //             .then(function(response) {
+      //                 return console.log(response.name);
+      //             }),
+      //     kodok : function(){
+      //         return alert(reponse.name);
+      //     }
+      // }
+      // let users = return response.name;
+      // }
+
       this.followUpOrder = item;
 
       switch (type) {
@@ -5362,7 +5420,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             cod_fee: this.$formatCurrency(item.cod_fee),
             total: item.paid_with == 'cod' ? this.$formatCurrency(item.total_price) : this.$formatCurrency(parseFloat(item.total_price) + 4400),
             product_price: item.paid_with == 'cod' ? this.$formatCurrency(item.product_price) : this.$formatCurrency(item.product_price + item.unique_fee),
-            admin: 'Bastian',
+            admin: users,
             order_id: item.invoice_number,
             unique: this.$formatCurrency(item.unique_fee),
             crypt_invoice: item.crypt_invoice
@@ -5449,11 +5507,11 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
       return _asyncToGenerator(
       /*#__PURE__*/
-      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee4() {
+      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee5() {
         var body, update, element;
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee4$(_context4) {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee5$(_context5) {
           while (1) {
-            switch (_context4.prev = _context4.next) {
+            switch (_context5.prev = _context5.next) {
               case 0:
                 body = {
                   name: params.costumer.name,
@@ -5471,12 +5529,12 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                     };
                   })
                 };
-                _context4.prev = 1;
-                _context4.next = 4;
+                _context5.prev = 1;
+                _context5.next = 4;
                 return axios.put('/backend/order/' + params.id, body);
 
               case 4:
-                update = _context4.sent;
+                update = _context5.sent;
                 update = update.data;
 
                 if (update.status) {
@@ -5484,20 +5542,20 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                   $(element).modal('hide');
                 }
 
-                _context4.next = 12;
+                _context5.next = 12;
                 break;
 
               case 9:
-                _context4.prev = 9;
-                _context4.t0 = _context4["catch"](1);
-                throw _context4.t0;
+                _context5.prev = 9;
+                _context5.t0 = _context5["catch"](1);
+                throw _context5.t0;
 
               case 12:
               case "end":
-                return _context4.stop();
+                return _context5.stop();
             }
           }
-        }, _callee4, null, [[1, 9]]);
+        }, _callee5, null, [[1, 9]]);
       }))();
     },
     cancelEdit: function cancelEdit() {
@@ -5519,51 +5577,51 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       function () {
         var _ref = _asyncToGenerator(
         /*#__PURE__*/
-        _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee5(willDelete) {
+        _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee6(willDelete) {
           var post;
-          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee5$(_context5) {
+          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee6$(_context6) {
             while (1) {
-              switch (_context5.prev = _context5.next) {
+              switch (_context6.prev = _context6.next) {
                 case 0:
                   if (!willDelete) {
-                    _context5.next = 14;
+                    _context6.next = 14;
                     break;
                   }
 
-                  _context5.prev = 1;
-                  _context5.next = 4;
+                  _context6.prev = 1;
+                  _context6.next = 4;
                   return axios["delete"]('/backend/order/' + order.id);
 
                 case 4:
-                  post = _context5.sent;
+                  post = _context6.sent;
                   post = post.data;
 
                   if (!post.status) {
-                    _context5.next = 9;
+                    _context6.next = 9;
                     break;
                   }
 
                   _this6.order.splice(index, 1);
 
-                  return _context5.abrupt("return", _this6.$swal("Poof! Order has been deleted", {
+                  return _context6.abrupt("return", _this6.$swal("Poof! Order has been deleted", {
                     icon: "success"
                   }));
 
                 case 9:
-                  _context5.next = 14;
+                  _context6.next = 14;
                   break;
 
                 case 11:
-                  _context5.prev = 11;
-                  _context5.t0 = _context5["catch"](1);
-                  throw _context5.t0;
+                  _context6.prev = 11;
+                  _context6.t0 = _context6["catch"](1);
+                  throw _context6.t0;
 
                 case 14:
                 case "end":
-                  return _context5.stop();
+                  return _context6.stop();
               }
             }
-          }, _callee5, null, [[1, 11]]);
+          }, _callee6, null, [[1, 11]]);
         }));
 
         return function (_x) {
@@ -5576,112 +5634,112 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
       return _asyncToGenerator(
       /*#__PURE__*/
-      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee6() {
+      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee7() {
         var now, body, updated;
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee6$(_context6) {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee7$(_context7) {
           while (1) {
-            switch (_context6.prev = _context6.next) {
+            switch (_context7.prev = _context7.next) {
               case 0:
                 if (_this7.selected.length) {
-                  _context6.next = 2;
+                  _context7.next = 2;
                   break;
                 }
 
-                return _context6.abrupt("return");
+                return _context7.abrupt("return");
 
               case 2:
                 now = _this7.$date(new Date(), 'YYYY-mm-DD HH:mm:ss');
                 body = {};
-                _context6.t0 = type;
-                _context6.next = _context6.t0 === 'pending' ? 7 : _context6.t0 === 'process' ? 9 : _context6.t0 === 'shipping' ? 11 : _context6.t0 === 'cancel' ? 13 : _context6.t0 === 'done' ? 15 : _context6.t0 === 'paid' ? 17 : _context6.t0 === 'unpaid' ? 19 : 21;
+                _context7.t0 = type;
+                _context7.next = _context7.t0 === 'pending' ? 7 : _context7.t0 === 'process' ? 9 : _context7.t0 === 'shipping' ? 11 : _context7.t0 === 'cancel' ? 13 : _context7.t0 === 'done' ? 15 : _context7.t0 === 'paid' ? 17 : _context7.t0 === 'unpaid' ? 19 : 21;
                 break;
 
               case 7:
                 body.key = {
                   process_at: null
                 };
-                return _context6.abrupt("break", 21);
+                return _context7.abrupt("break", 21);
 
               case 9:
                 body.key = {
                   process_at: now
                 };
-                return _context6.abrupt("break", 21);
+                return _context7.abrupt("break", 21);
 
               case 11:
                 body.key = {
                   shipping_at: now
                 };
-                return _context6.abrupt("break", 21);
+                return _context7.abrupt("break", 21);
 
               case 13:
                 body.key = {
                   cancel_at: now
                 };
-                return _context6.abrupt("break", 21);
+                return _context7.abrupt("break", 21);
 
               case 15:
                 body.key = {
                   done_at: now
                 };
-                return _context6.abrupt("break", 21);
+                return _context7.abrupt("break", 21);
 
               case 17:
                 body.key = {
                   paid_at: now
                 };
-                return _context6.abrupt("break", 21);
+                return _context7.abrupt("break", 21);
 
               case 19:
                 body.key = {
                   paid_at: null
                 };
-                return _context6.abrupt("break", 21);
+                return _context7.abrupt("break", 21);
 
               case 21:
                 if (body) {
-                  _context6.next = 23;
+                  _context7.next = 23;
                   break;
                 }
 
-                return _context6.abrupt("return");
+                return _context7.abrupt("return");
 
               case 23:
                 body.order = _this7.selected.map(function (x) {
                   return x.id;
                 });
-                _context6.prev = 24;
-                _context6.next = 27;
+                _context7.prev = 24;
+                _context7.next = 27;
                 return axios.post("/backend/order/bulk", body);
 
               case 27:
-                updated = _context6.sent;
+                updated = _context7.sent;
                 updated = updated.data;
 
                 if (!updated.status) {
-                  _context6.next = 33;
+                  _context7.next = 33;
                   break;
                 }
 
                 _this7.allSelected = false;
                 _this7.selected = [];
-                return _context6.abrupt("return", _this7.fetchOrder());
+                return _context7.abrupt("return", _this7.fetchOrder());
 
               case 33:
-                _context6.next = 38;
+                _context7.next = 38;
                 break;
 
               case 35:
-                _context6.prev = 35;
-                _context6.t1 = _context6["catch"](24);
-                throw _context6.t1;
+                _context7.prev = 35;
+                _context7.t1 = _context7["catch"](24);
+                throw _context7.t1;
 
               case 38:
               case "end":
-                return _context6.stop();
+                return _context7.stop();
             }
           }
-        }, _callee6, null, [[24, 35]]);
+        }, _callee7, null, [[24, 35]]);
       }))();
     },
     setClassBtnFollowUp: function setClassBtnFollowUp(order, type) {
@@ -5745,33 +5803,56 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
       return _asyncToGenerator(
       /*#__PURE__*/
-      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee7() {
+      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee8() {
         var filter, url;
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee7$(_context7) {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee8$(_context8) {
           while (1) {
-            switch (_context7.prev = _context7.next) {
+            switch (_context8.prev = _context8.next) {
               case 0:
                 _this8["export"] = 'execute';
                 filter = _this8.filters;
                 url = "/backend/order/json?search=".concat(_this8.search, "&status=").concat(filter.status, "&payment=").concat(filter.payment, "&payment-method=").concat(filter.paymentMethod, "&tracking=").concat(filter.tracking, "&handle=").concat(filter.handle, "&start=").concat(filter.startDate, "&end=").concat(filter.endDate, "&page=").concat(_this8.page, "&export=").concat(_this8["export"]);
                 _this8["export"] = '';
-                return _context7.abrupt("return", window.open(url, '_blank'));
+                return _context8.abrupt("return", window.open(url, '_blank'));
 
               case 5:
               case "end":
-                return _context7.stop();
+                return _context8.stop();
             }
           }
-        }, _callee7);
+        }, _callee8);
       }))();
-    },
-    generateColor: function generateColor(params) {
-      if (params == 'Pending') return 'flat flat-danger';
-      if (params == 'Refund') return 'flat flat-warning';
-      if (params == 'Complete') return 'flat flat-success';
-      return 'flat flat-primary';
     }
-  }
+  }, _defineProperty(_methods, "onExport", function onExport() {
+    var _this9 = this;
+
+    return _asyncToGenerator(
+    /*#__PURE__*/
+    _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee9() {
+      var filter, url;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee9$(_context9) {
+        while (1) {
+          switch (_context9.prev = _context9.next) {
+            case 0:
+              _this9["export"] = 'execute';
+              filter = _this9.filters;
+              url = "/backend/order/json?search=".concat(_this9.search, "&status=").concat(filter.status, "&payment=").concat(filter.payment, "&payment-method=").concat(filter.paymentMethod, "&tracking=").concat(filter.tracking, "&handle=").concat(filter.handle, "&start=").concat(filter.startDate, "&end=").concat(filter.endDate, "&page=").concat(_this9.page, "&export=").concat(_this9["export"]);
+              _this9["export"] = '';
+              return _context9.abrupt("return", window.open(url, '_blank'));
+
+            case 5:
+            case "end":
+              return _context9.stop();
+          }
+        }
+      }, _callee9);
+    }))();
+  }), _defineProperty(_methods, "generateColor", function generateColor(params) {
+    if (params == 'Pending') return 'flat flat-danger';
+    if (params == 'Refund') return 'flat flat-warning';
+    if (params == 'Complete') return 'flat flat-success';
+    return 'flat flat-primary';
+  }), _methods)
 });
 
 /***/ }),
@@ -59277,10 +59358,6 @@ var render = function() {
                         ]),
                         _vm._v(" "),
                         _c("th", { staticClass: "hide-sm" }, [
-                          _vm._v("Handle By")
-                        ]),
-                        _vm._v(" "),
-                        _c("th", { staticClass: "hide-sm" }, [
                           _vm._v("Status")
                         ]),
                         _vm._v(" "),
@@ -59477,16 +59554,6 @@ var render = function() {
                                 : _vm._e()
                             ]
                           ),
-                          _vm._v(" "),
-                          _c("td", { staticClass: "v-middle hide-sm" }, [
-                            _vm._v(
-                              "\n                                   " +
-                                _vm._s(
-                                  item.handle ? item.handle.first_name : "-"
-                                ) +
-                                "\n                                "
-                            )
-                          ]),
                           _vm._v(" "),
                           _c("td", { staticClass: "v-middle hide-sm" }, [
                             _c(
@@ -60592,7 +60659,7 @@ var render = function() {
                                 },
                                 attrs: {
                                   href:
-                                    "https://dropy.id/form-order?product=" +
+                                    "http://127.0.0.1:4000/form-order?product=" +
                                     item.slug,
                                   target: "_blank"
                                 }
@@ -98126,14 +98193,14 @@ var firstMessage = function firstMessage(arg) {
   var district = arg.district ? arg.district : null;
   var address = district ? "*Alamat Pengiriman*:".concat(arg.penerima, ", +").concat(arg.phone, ", ").concat(arg.address, ", ").concat(arg.district, ",").concat(arg.city, ",").concat(arg.province, " %0a") : '';
   var ongkir = arg.shipping_fee > 0 ? "*Ongkir*: Rp ".concat(arg.shipping_fee, " %0a") : '';
-  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya ").concat(arg.admin, " CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Nomor Invoice*:").concat(arg.order_id, "%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a*Biaya Transfer*: Rp 4.400 %0a").concat(ongkir, "*Kode Unik*: Rp ").concat(arg.unique, " %0a*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPesanan Anda akan kami Proses setelah Anda Lakukan Transfer sejumlah *Rp ").concat(arg.total, "*.Silahkan klik link berikut untuk menuju halaman pembayaran: https://dropy.id/thanks?order=").concat(arg.invoice);
+  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya Ridwan CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Nomor Invoice*:").concat(arg.order_id, "%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a*Biaya Transfer*: Rp 4.400 %0a").concat(ongkir, "*Kode Unik*: Rp ").concat(arg.unique, " %0a*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPesanan Anda akan kami Proses setelah Anda Lakukan Transfer sejumlah *Rp ").concat(arg.total, "*.Silahkan klik link berikut untuk menuju halaman pembayaran: https://dropy.id/thanks?order=").concat(arg.invoice);
 };
 
 var codMessage = function codMessage(arg) {
   var district = arg.district ? arg.district : null;
   var address = district ? "*Alamat Pengiriman*:".concat(arg.penerima, ", +").concat(arg.phone, ", ").concat(arg.address, ", ").concat(arg.district, ",").concat(arg.city, ",").concat(arg.province, " %0a") : '';
   var ongkir = arg.shipping_fee > 0 ? "*Ongkir*: Rp ".concat(arg.shipping_fee, " %0a*COD Fee*:Rp ").concat(arg.cod_fee, "%0a") : '';
-  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya ").concat(arg.admin, " CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a").concat(ongkir, "*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPembayaran dilakukan setelah Barang Sampai (COD), Mohon siapkan pembayaran sejumlah *Rp ").concat(arg.total, "*");
+  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya Ridwan CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a").concat(ongkir, "*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPembayaran dilakukan setelah Barang Sampai (COD), Mohon siapkan pembayaran sejumlah *Rp ").concat(arg.total, "*");
 };
 
 var secondMessage = function secondMessage(arg) {
@@ -99100,8 +99167,8 @@ if (typeof jQuery === 'undefined') {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\dropy-backend\resources\assets\js\app.js */"./resources/assets/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\dropy-backend\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\kantor2\ambassador\resources\assets\js\app.js */"./resources/assets/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\kantor2\ambassador\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
 
 
 /***/ }),

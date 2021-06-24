@@ -9,45 +9,45 @@ $menu   = [
         "sub"   => [
         ]
     ],
-    [
-        "title" => "Landing",
-        "link"  => "#",
-        "icon"  => "vcard-o",
-        "as"    => "landing.",
-        "sub"   => [
-            [
-                "title" => "List All",
-                "link"  => "landing",
-                "icon"  => "circle-o",
-                "as"    => "",
-            ]
-        ]
-    ],[
-        "title" => "Logistic",
-        "link"  => "#",
-        "icon"  => "vcard-o",
-        "as"    => "logistic.",
-        "sub"   => [
-            [
-                "title" => "List Batch",
-                "link"  => "logistic",
-                "icon"  => "circle-o",
-                "as"    => "",
-            ],
-            [
-                "title" => "List Orders",
-                "link"  => "logistic/orders",
-                "icon"  => "circle-o",
-                "as"    => "",
-            ],
-            [
-                "title" => "List Cs Logistic",
-                "link"  => "logistic/cs",
-                "icon"  => "circle-o",
-                "as"    => "",
-            ]
-        ]
-    ],
+    // [
+    //     "title" => "Landing",
+    //     "link"  => "#",
+    //     "icon"  => "vcard-o",
+    //     "as"    => "landing.",
+    //     "sub"   => [
+    //         [
+    //             "title" => "List All",
+    //             "link"  => "landing",
+    //             "icon"  => "circle-o",
+    //             "as"    => "",
+    //         ]
+    //     ]
+    // ],[
+    //     "title" => "Logistic",
+    //     "link"  => "#",
+    //     "icon"  => "vcard-o",
+    //     "as"    => "logistic.",
+    //     "sub"   => [
+    //         [
+    //             "title" => "List Batch",
+    //             "link"  => "logistic",
+    //             "icon"  => "circle-o",
+    //             "as"    => "",
+    //         ],
+    //         [
+    //             "title" => "List Orders",
+    //             "link"  => "logistic/orders",
+    //             "icon"  => "circle-o",
+    //             "as"    => "",
+    //         ],
+    //         [
+    //             "title" => "List Cs Logistic",
+    //             "link"  => "logistic/cs",
+    //             "icon"  => "circle-o",
+    //             "as"    => "",
+    //         ]
+    //     ]
+    // ],
 
     [
         "title" => "Product",
@@ -95,52 +95,52 @@ $menu   = [
             ],
         ]
     ],
-    [
-        "title" => "BCA",
-        "link"  => "#",
-        "icon"  => "vcard-o",
-        "as"    => "bca.",
-        "sub"   => [
-            [
-                "title" => "List All",
-                "link"  => "bca",
-                "icon"  => "circle-o",
-                "as"    => "",
-            ]
-        ]
-    ],
-    [
-        "title" => "Administrator",
-        "link"  => "#",
-        "icon"  => "vcard-o",
-        "as"    => "administrator.",
-        "sub"   => [
-            [
-                "title" => "List All",
-                "link"  => "administrator",
-                "icon"  => "circle-o",
-                "as"    => "",
-            ],
-            [
-                "title" => "Roles",
-                "link"  => "administrator/role",
-                "icon"  => "unlock",
-                "as"    => "role.",
-            ],
-            [
-                "title" => "Permission",
-                "link"  => "administrator/permission",
-                "icon"  => "key",
-                "as"    => "permission.",
-            ],
-            [
-                "title" => "Group",
-                "link"  => "administrator/group",
-                "icon"  => "users",
-                "as"    => "group.",
-            ]
-        ]
-            ],
+    // [
+    //     "title" => "BCA",
+    //     "link"  => "#",
+    //     "icon"  => "vcard-o",
+    //     "as"    => "bca.",
+    //     "sub"   => [
+    //         [
+    //             "title" => "List All",
+    //             "link"  => "bca",
+    //             "icon"  => "circle-o",
+    //             "as"    => "",
+    //         ]
+    //     ]
+    // ],
+    // [
+    //     "title" => "Administrator",
+    //     "link"  => "#",
+    //     "icon"  => "vcard-o",
+    //     "as"    => "administrator.",
+    //     "sub"   => [
+    //         [
+    //             "title" => "List All",
+    //             "link"  => "administrator",
+    //             "icon"  => "circle-o",
+    //             "as"    => "",
+    //         ],
+    //         [
+    //             "title" => "Roles",
+    //             "link"  => "administrator/role",
+    //             "icon"  => "unlock",
+    //             "as"    => "role.",
+    //         ],
+    //         [
+    //             "title" => "Permission",
+    //             "link"  => "administrator/permission",
+    //             "icon"  => "key",
+    //             "as"    => "permission.",
+    //         ],
+    //         [
+    //             "title" => "Group",
+    //             "link"  => "administrator/group",
+    //             "icon"  => "users",
+    //             "as"    => "group.",
+    //         ]
+    //     ]
+    //         ],
 ];
 
 return $menu;

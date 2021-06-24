@@ -167,7 +167,7 @@
                                     <th class="hide-sm">Name</th>
                                     <th class="hide-sm">Product Name</th>
                                     <th class="hide-sm text-center">Quantity</th>
-                                    <th class="hide-sm">Handle By</th>
+                                    <!-- <th class="hide-sm">Handle By</th> -->
                                     <th class="hide-sm">Status</th>
                                     <th class="hide-sm">Payment Type</th>
                                     <th class="hide-sm">Payment</th>
@@ -206,9 +206,9 @@
                                             </span>
                                         </div>
                                     </td>
-                                    <td class="v-middle hide-sm">
+                                    <!-- <td class="v-middle hide-sm">
                                        {{item.handle ? item.handle.first_name : '-'}}
-                                    </td>
+                                    </td> -->
                                     <td class="v-middle hide-sm">
                                         <div :class="generateColor(item.current_status)">
                                            {{ item.current_status ? item.current_status : 'Pending' }}
@@ -421,6 +421,7 @@
     </div>
 </template>
 <script>
+
 import ModelStatus from '../components/modal/Status.vue'
 import ModelFollowUp from '../components/modal/FollowUp.vue'
 import ModalOrder from '../components/modal/OrderEdit.vue'
@@ -577,6 +578,17 @@ export default {
             $(element).modal('show')
         },
 
+        async fetchText(){
+            try {
+                let text = await axios.get('/backend/order/get-name')
+                text = text.name
+                document.write(text);
+                
+            } catch (error) {
+                throw error
+            }
+        },
+
         async onSetActions(params){
             let parsing = JSON.stringify(Object.fromEntries(params))
             parsing = JSON.parse(parsing)
@@ -615,7 +627,30 @@ export default {
                         icon:'warning'
                 })
             }
+            
             let phone = item.costumer.phone.replace('0', '62')
+            // function anjing(){
+            let url = ('/backend/order/get-name')
+            let users = fetch(url)
+            .then(res => res.json())
+            .then(data => res.json(data.name))
+
+            // let users = {
+            //     anjing : fetch('/backend/order/get-name')
+            //             .then(function(response) {
+            //             return response.json(response.name);
+            //             })
+            //             .then(function(response) {
+            //                 return console.log(response.name);
+            //             }),
+            //     kodok : function(){
+            //         return alert(reponse.name);
+            //     }
+            // }
+            // let users = return response.name;
+            // }
+            
+            
             this.followUpOrder = item
             switch (type) {
                 case 1:
@@ -633,7 +668,7 @@ export default {
                         cod_fee:this.$formatCurrency(item.cod_fee),
                         total:item.paid_with == 'cod' ? this.$formatCurrency(item.total_price) : this.$formatCurrency(parseFloat(item.total_price) + 4400),
                         product_price:item.paid_with == 'cod'?  this.$formatCurrency(item.product_price) :  this.$formatCurrency(item.product_price + item.unique_fee),
-                        admin:'Bastian',
+                        admin: users,
                         order_id:item.invoice_number,
                         unique:this.$formatCurrency(item.unique_fee),
                         crypt_invoice:item.crypt_invoice
@@ -883,6 +918,14 @@ export default {
             this.page = 0
             this.isScroll = false
             this.fetchOrder()
+        },
+
+        async onExport(){
+            this.export='execute'
+            let filter = this.filters
+            let url = `/backend/order/json?search=${this.search}&status=${filter.status}&payment=${filter.payment}&payment-method=${filter.paymentMethod}&tracking=${filter.tracking}&handle=${filter.handle}&start=${filter.startDate}&end=${filter.endDate}&page=${this.page}&export=${this.export}`
+            this.export = ''
+            return window.open(url,'_blank');
         },
 
         async onExport(){
