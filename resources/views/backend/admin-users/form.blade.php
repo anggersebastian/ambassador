@@ -24,7 +24,7 @@
             <div class="box box-info">
                 <div class="box-header">
                     <h3 class="box-title">
-                        backend User Form
+                        Backend User Form
                     </h3>
                 </div>
                 

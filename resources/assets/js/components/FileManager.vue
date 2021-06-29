@@ -14,13 +14,13 @@
                     @vdropzone-success="successEvent"
                 />
 
-                <div class="filemanager-grid">
+                <!-- <div class="filemanager-grid">
                     <ul>
                         <li v-for="(item, index) in files" :key="index" @click="onSelect($event, item.Key)" class="gal-img">
                             <img :src="'https://d2jnbxtr5v4vqu.cloudfront.net/'+item.Key" alt="" class="img-responsive">
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" @click="closeModal()">Close</button>

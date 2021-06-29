@@ -54255,39 +54255,7 @@ var render = function() {
                     ref: "myVueDropzone",
                     attrs: { id: "dropzone", options: _vm.dropzoneOptions },
                     on: { "vdropzone-success": _vm.successEvent }
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "filemanager-grid" }, [
-                    _c(
-                      "ul",
-                      _vm._l(_vm.files, function(item, index) {
-                        return _c(
-                          "li",
-                          {
-                            key: index,
-                            staticClass: "gal-img",
-                            on: {
-                              click: function($event) {
-                                return _vm.onSelect($event, item.Key)
-                              }
-                            }
-                          },
-                          [
-                            _c("img", {
-                              staticClass: "img-responsive",
-                              attrs: {
-                                src:
-                                  "https://d2jnbxtr5v4vqu.cloudfront.net/" +
-                                  item.Key,
-                                alt: ""
-                              }
-                            })
-                          ]
-                        )
-                      }),
-                      0
-                    )
-                  ])
+                  })
                 ],
                 1
               ),

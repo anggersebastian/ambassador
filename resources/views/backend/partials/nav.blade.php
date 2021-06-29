@@ -10,13 +10,13 @@
             <notif-nav></notif-nav>
             <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    <img src="{{ asset("images/avatar3.png") }}" class="user-image" alt="User Image">
+                    <img src="{{ asset("images/user8.jpg") }}" class="user-image" alt="User Image">
                     <span class="hidden-xs">{{ Sentinel::check()->first_name }}</span>
                 </a>
                 <ul class="dropdown-menu">
                     <!-- User image -->
                     <li class="user-header">
-                        <img src="{{ asset("images/avatar3.png") }}" class="img-circle" alt="User Image">
+                        <img src="{{ asset("images/user8.jpg") }}" class="img-circle" alt="User Image">
 
                         <p>
                             {{ Sentinel::check()->first_name }}

@@ -5,7 +5,7 @@
         <!-- Sidebar user panel -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="{{ asset("images/avatar3.png") }}" class="img-circle" alt="User Image">
+                <img src="{{ asset("images/user8.jpg") }}" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
                 <p>{{ Sentinel::check()->first_name }}</p>
