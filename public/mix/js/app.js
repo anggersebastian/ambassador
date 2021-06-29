@@ -54243,7 +54243,7 @@ var render = function() {
                 ),
                 _vm._v(" "),
                 _c("h4", { staticClass: "modal-title" }, [
-                  _vm._v("Filemanager")
+                  _vm._v("File Manager")
                 ])
               ]),
               _vm._v(" "),
@@ -57416,7 +57416,7 @@ var render = function() {
                                       [
                                         _c("i", { staticClass: "fa fa-plus" }),
                                         _vm._v(
-                                          "Add Cover\n                                    "
+                                          " Add Cover\n                                    "
                                         )
                                       ]
                                     )
@@ -97190,14 +97190,15 @@ __webpack_require__.r(__webpack_exports__);
 /*!*********************************************************!*\
   !*** ./resources/assets/js/components/product/Form.vue ***!
   \*********************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Form_vue_vue_type_template_id_289ced9b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Form.vue?vue&type=template&id=289ced9b& */ "./resources/assets/js/components/product/Form.vue?vue&type=template&id=289ced9b&");
 /* harmony import */ var _Form_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Form.vue?vue&type=script&lang=js& */ "./resources/assets/js/components/product/Form.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Form_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Form.vue?vue&type=style&index=0&lang=scss& */ "./resources/assets/js/components/product/Form.vue?vue&type=style&index=0&lang=scss&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Form_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Form_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _Form_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Form.vue?vue&type=style&index=0&lang=scss& */ "./resources/assets/js/components/product/Form.vue?vue&type=style&index=0&lang=scss&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -97229,7 +97230,7 @@ component.options.__file = "resources/assets/js/components/product/Form.vue"
 /*!**********************************************************************************!*\
   !*** ./resources/assets/js/components/product/Form.vue?vue&type=script&lang=js& ***!
   \**********************************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -98193,14 +98194,14 @@ var firstMessage = function firstMessage(arg) {
   var district = arg.district ? arg.district : null;
   var address = district ? "*Alamat Pengiriman*:".concat(arg.penerima, ", +").concat(arg.phone, ", ").concat(arg.address, ", ").concat(arg.district, ",").concat(arg.city, ",").concat(arg.province, " %0a") : '';
   var ongkir = arg.shipping_fee > 0 ? "*Ongkir*: Rp ".concat(arg.shipping_fee, " %0a") : '';
-  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya ").concat(arg.admin, " CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Nomor Invoice*:").concat(arg.order_id, "%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a*Biaya Transfer*: Rp 4.400 %0a").concat(ongkir, "*Kode Unik*: Rp ").concat(arg.unique, " %0a*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPesanan Anda akan kami Proses setelah Anda Lakukan Transfer sejumlah *Rp ").concat(arg.total, "*.Silahkan klik link berikut untuk menuju halaman pembayaran: https://dropy.id/thanks?order=").concat(arg.invoice);
+  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya Angger CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Nomor Invoice*:").concat(arg.order_id, "%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a*Biaya Transfer*: Rp 4.400 %0a").concat(ongkir, "*Kode Unik*: Rp ").concat(arg.unique, " %0a*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPesanan Anda akan kami Proses setelah Anda Lakukan Transfer sejumlah *Rp ").concat(arg.total, "*.Silahkan klik link berikut untuk menuju halaman pembayaran: https://dropy.id/thanks?order=").concat(arg.invoice);
 };
 
 var codMessage = function codMessage(arg) {
   var district = arg.district ? arg.district : null;
   var address = district ? "*Alamat Pengiriman*:".concat(arg.penerima, ", +").concat(arg.phone, ", ").concat(arg.address, ", ").concat(arg.district, ",").concat(arg.city, ",").concat(arg.province, " %0a") : '';
   var ongkir = arg.shipping_fee > 0 ? "*Ongkir*: Rp ".concat(arg.shipping_fee, " %0a*COD Fee*:Rp ").concat(arg.cod_fee, "%0a") : '';
-  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya ").concat(arg.admin, " CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a").concat(ongkir, "*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPembayaran dilakukan setelah Barang Sampai (COD), Mohon siapkan pembayaran sejumlah *Rp ").concat(arg.total, "*");
+  return "Hai kak *".concat(arg.name, "*, Perkenalkan saya Angger CS Dropy.id\uD83D\uDE0APesanan Anda sudah kami Terima, Berikut rinciannya: %0a%0a*Produk*:").concat(arg.product, " %0a").concat(address, "*Harga Produk*: Rp ").concat(arg.product_price, " %0a").concat(ongkir, "*Total Pembayaran*: Rp ").concat(arg.total, "  %0a%0aPembayaran dilakukan setelah Barang Sampai (COD), Mohon siapkan pembayaran sejumlah *Rp ").concat(arg.total, "*");
 };
 
 var secondMessage = function secondMessage(arg) {

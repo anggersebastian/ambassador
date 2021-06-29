@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-static-top">
+<nav class="navbar navbar-static-top" style="background-color:#ffd600;">
     <!-- Sidebar toggle button-->
     <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
         <span class="sr-only">Toggle navigation</span>

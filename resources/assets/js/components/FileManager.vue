@@ -4,7 +4,7 @@
             <div class="modal-content" style="max-width:unset; width:100%;">
             <div class="modal-header">
                 <button type="button" class="close" @click="closeModal()">&times;</button>
-                <h4 class="modal-title">Filemanager</h4>
+                <h4 class="modal-title">File Manager</h4>
             </div>
             <div class="modal-body">
                 <vue-dropzone 

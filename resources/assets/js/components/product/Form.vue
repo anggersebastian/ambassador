@@ -255,7 +255,7 @@
                                     <label for="" class="control-label">Product Cover</label>
                                     <div class="product-cover">
                                         <a href="javascript:;" class="btn btn-primary btn-sm" @click="setCover">
-                                            <i class="fa fa-plus"></i>Add Cover
+                                            <i class="fa fa-plus"></i> Add Cover
                                         </a>
                                     </div>
                                     <ul v-if="cover" class="filemanager-ul">

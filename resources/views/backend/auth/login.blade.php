@@ -1,8 +1,8 @@
 @extends('backend.auth.auth')
 
 @section('main')
-    <h1 style="background-color: #51a297">Ambassador</h1>
-    <h2 style="background-color: #339ea2">Login</h2>
+    <h1 style="background-color: #ffd600">Ambassador</h1>
+    <h2 style="background-color: #ffd600">Login</h2>
 
     {{ Form::open(['url' => url('backend/login/authenticate'),'method' => 'post','files' => true]) }}
 
