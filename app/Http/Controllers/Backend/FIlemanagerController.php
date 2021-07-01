@@ -10,7 +10,7 @@ class FilemanagerController extends Controller{
     public function index(Request $request)
     {
         $aws = new S3Service();
-        $object = $aws->listObject('dropy-product');
+        $object = $aws->listObject('dropy-product/');
 
         return response()->json($object);
     }
@@ -26,9 +26,11 @@ class FilemanagerController extends Controller{
                 $uploadFile  = $exception->getMessage();
             }
 
+            $user = Auth::user();
+            // manipulasi emainya dedy@email.com
             return response()->json([
                 'status' => true,
-                'data' => 'dropy-product/'.$uploadFile['name']
+                'data' => 'dropy-product/'.$emailLabel.'/'.$uploadFile['name']
             ]);
         }
     }

@@ -47,7 +47,7 @@
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini">O</span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>Ambassador</b></span>
+            <span class="logo-lg"><b>AMBASSADOR</b></span>
         </a>
         @include("backend.partials.nav")
     </header>

@@ -2091,6 +2091,9 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
 
 
 var token = document.head.querySelector('meta[name="csrf-token"]');
@@ -54255,7 +54258,39 @@ var render = function() {
                     ref: "myVueDropzone",
                     attrs: { id: "dropzone", options: _vm.dropzoneOptions },
                     on: { "vdropzone-success": _vm.successEvent }
-                  })
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "filemanager-grid" }, [
+                    _c(
+                      "ul",
+                      _vm._l(_vm.files, function(item, index) {
+                        return _c(
+                          "li",
+                          {
+                            key: index,
+                            staticClass: "gal-img",
+                            on: {
+                              click: function($event) {
+                                return _vm.onSelect($event, item.Key)
+                              }
+                            }
+                          },
+                          [
+                            _c("img", {
+                              staticClass: "img-responsive",
+                              attrs: {
+                                src:
+                                  "https://d2jnbxtr5v4vqu.cloudfront.net/" +
+                                  item.Key,
+                                alt: ""
+                              }
+                            })
+                          ]
+                        )
+                      }),
+                      0
+                    )
+                  ])
                 ],
                 1
               ),
@@ -97158,15 +97193,14 @@ __webpack_require__.r(__webpack_exports__);
 /*!*********************************************************!*\
   !*** ./resources/assets/js/components/product/Form.vue ***!
   \*********************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Form_vue_vue_type_template_id_289ced9b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Form.vue?vue&type=template&id=289ced9b& */ "./resources/assets/js/components/product/Form.vue?vue&type=template&id=289ced9b&");
 /* harmony import */ var _Form_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Form.vue?vue&type=script&lang=js& */ "./resources/assets/js/components/product/Form.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Form_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Form_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _Form_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Form.vue?vue&type=style&index=0&lang=scss& */ "./resources/assets/js/components/product/Form.vue?vue&type=style&index=0&lang=scss&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Form_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Form.vue?vue&type=style&index=0&lang=scss& */ "./resources/assets/js/components/product/Form.vue?vue&type=style&index=0&lang=scss&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -97198,7 +97232,7 @@ component.options.__file = "resources/assets/js/components/product/Form.vue"
 /*!**********************************************************************************!*\
   !*** ./resources/assets/js/components/product/Form.vue?vue&type=script&lang=js& ***!
   \**********************************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

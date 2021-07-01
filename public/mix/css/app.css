@@ -161,7 +161,7 @@ a:active,
 a:focus {
   outline: none;
   text-decoration: none;
-  color: black;
+  color: #72afd2;
 }
 /* Page Header */
 .page-header {
@@ -4882,11 +4882,11 @@ table.text-center th {
 }
 .skin-blue .main-header .logo {
   background-color: #ffd600;
-  color: #ffffff;
+  color: black;
   border-bottom: 0 solid transparent;
 }
 .skin-blue .main-header .logo:hover {
-  background-color: black;
+  background-color: #ffd600;
 }
 .skin-blue .main-header li.user-header {
   background-color: #ffd600;
@@ -5028,7 +5028,7 @@ table.text-center th {
   border-bottom: 0 solid transparent;
 }
 .skin-blue-light .main-header .logo:hover {
-  background-color: #ffd600;
+  background-color: #3b8ab8;
 }
 .skin-blue-light .main-header li.user-header {
   background-color: #ffd600;
@@ -5137,7 +5137,7 @@ table.text-center th {
   border-bottom: 0 solid transparent;
 }
 .skin-blue.layout-top-nav .main-header > .logo:hover {
-  background-color: #3b8ab8;
+  background-color: black;
 }
 /*
  * Skin: Black

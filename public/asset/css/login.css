@@ -1,0 +1,5684 @@
+
+.websiteBody{
+  margin: 0;
+}
+
+
+.q1{
+    display:block;
+    margin:auto;
+    width:100%;
+    height:auto;
+    pointer-events:auto;
+}
+.outer_q1{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:1;
+}
+.q2{
+    position:relative;
+    z-index:2;
+    pointer-events:auto;
+    width:100%;
+    margin-left:0;
+    min-width:200px;
+    max-width:1440px;
+    margin:auto;
+    background-color:rgba(255, 255, 255, 1);
+    overflow:hidden;
+    display:block;
+}
+.outer_q2{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:2;
+}
+.q3{
+    position:relative;
+    z-index:287;
+    pointer-events:auto;
+    margin-left:1320px;
+    width:120px;
+    min-width:120px;
+    height:78px;
+    margin-top:-10px;
+    margin-bottom:663px;
+    min-height:78px;
+}
+.outer_q3{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:287;
+}
+.q4{
+    position:relative;
+    z-index:288;
+    pointer-events:auto;
+    margin-left:0px;
+    width:120px;
+    min-width:120px;
+    height:15px;
+    margin-top:0px;
+    margin-bottom:63px;
+    min-height:15px;
+}
+.outer_q4{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:288;
+}
+.q5{
+    position:relative;
+    z-index:289;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:33.333333333333336%;
+    margin-top:8.333333333333334%;
+}
+.outer_q5{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:289;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q6{
+    position:relative;
+    z-index:290;
+    pointer-events:auto;
+    margin-left:0px;
+    width:120px;
+    min-width:120px;
+    height:15px;
+    margin-top:-47px;
+    margin-bottom:32px;
+    min-height:15px;
+}
+.outer_q6{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:290;
+}
+.q7{
+    position:relative;
+    z-index:291;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q7{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:291;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q8{
+    position:relative;
+    z-index:292;
+    pointer-events:auto;
+    margin-left:0px;
+    width:120px;
+    min-width:120px;
+    height:15px;
+    margin-top:-15px;
+    margin-bottom:0px;
+    min-height:15px;
+}
+.outer_q8{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:292;
+}
+.q9{
+    position:relative;
+    z-index:293;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q9{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:293;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q10{
+    position:relative;
+    z-index:6;
+    pointer-events:auto;
+    margin-left:662px;
+    width:778px;
+    min-width:778px;
+    height:731px;
+    margin-top:-731px;
+    margin-bottom:0px;
+    min-height:731px;
+}
+.outer_q10{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:6;
+}
+.q11{
+    position:relative;
+    z-index:7;
+    pointer-events:auto;
+    margin-left:0px;
+    width:778px;
+    min-width:778px;
+    height:731px;
+    margin-top:0px;
+    margin-bottom:0px;
+    min-height:731px;
+}
+.outer_q11{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:7;
+}
+.q12{
+    position:relative;
+    z-index:284;
+    pointer-events:auto;
+    margin-left:12px;
+    width:279px;
+    min-width:279px;
+    height:56.55px;
+    margin-top:-715px;
+    margin-bottom:658.45px;
+    min-height:56.55px;
+}
+.outer_q12{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:284;
+}
+.q13{
+    position:relative;
+    z-index:285;
+    pointer-events:auto;
+    margin-left:0px;
+    width:56.55px;
+    min-width:56.55px;
+    height:56.55px;
+    margin-top:0px;
+    margin-bottom:0px;
+    min-height:56.55px;
+}
+.outer_q13{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:285;
+}
+.q14{
+    position:relative;
+    z-index:286;
+    pointer-events:auto;
+    margin-left:53px;
+    width:226.22px;
+    min-width:226.22px;
+    height:47.77px;
+    margin-top:-51.55px;
+    margin-bottom:3.779999999999987px;
+    min-height:47.77px;
+}
+.outer_q14{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:286;
+}
+.q15{
+    position:relative;
+    z-index:8;
+    pointer-events:auto;
+    margin-left:782px;
+    width:537px;
+    min-width:537px;
+    height:524.21px;
+    margin-top:-622px;
+    margin-bottom:97.78999999999996px;
+    min-height:524.21px;
+}
+.outer_q15{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:8;
+}
+.q16{
+    position:relative;
+    z-index:9;
+    pointer-events:auto;
+    margin-left:13px;
+    width:524.16px;
+    min-width:524.16px;
+    height:359.06px;
+    margin-top:0px;
+    margin-bottom:165.15000000000003px;
+    min-height:359.06px;
+}
+.outer_q16{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:9;
+}
+.q17{
+    position:relative;
+    z-index:130;
+    pointer-events:auto;
+    margin-left:82.41758241758244%;
+    width:5.278922466422468%;
+    height:0.11697209380047903%;
+    margin-top:44.833638583638596%;
+}
+.outer_q17{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:130;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q18{
+    position:relative;
+    z-index:129;
+    pointer-events:auto;
+    margin-left:82.41758241758244%;
+    width:4.8229548229548245%;
+    height:0.11418704394808667%;
+    margin-top:38.91941391941393%;
+}
+.outer_q18{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:129;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q19{
+    position:relative;
+    z-index:128;
+    pointer-events:auto;
+    margin-left:82.41758241758244%;
+    width:4.8229548229548245%;
+    height:0.11418704394808667%;
+    margin-top:38.347069597069606%;
+}
+.outer_q19{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:128;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q20{
+    position:relative;
+    z-index:127;
+    pointer-events:auto;
+    margin-left:79.36507936507938%;
+    width:10.626526251526254%;
+    height:9.416253550938562%;
+    margin-top:35.29456654456656%;
+}
+.outer_q20{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:127;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q21{
+    position:relative;
+    z-index:126;
+    pointer-events:auto;
+    margin-left:81.27289377289381%;
+    width:8.419184981684985%;
+    height:0.11697209380047903%;
+    margin-top:43.8797313797314%;
+}
+.outer_q21{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:126;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q22{
+    position:relative;
+    z-index:125;
+    pointer-events:auto;
+    margin-left:81.27289377289378%;
+    width:7.60454822954823%;
+    height:1.2950481813624466%;
+    margin-top:33.57753357753358%;
+}
+.outer_q22{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:125;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q23{
+    position:relative;
+    z-index:124;
+    pointer-events:auto;
+    margin-left:81.2728937728938%;
+    width:7.541590354090356%;
+    height:1.175291037709575%;
+    margin-top:33.577533577533586%;
+}
+.outer_q23{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:124;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q24{
+    position:relative;
+    z-index:123;
+    pointer-events:auto;
+    margin-left:80.70054945054947%;
+    width:8.695818070818074%;
+    height:4.3502478694368625%;
+    margin-top:34.34065934065935%;
+}
+.outer_q24{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:123;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q25{
+    position:relative;
+    z-index:122;
+    pointer-events:auto;
+    margin-left:80.12820512820515%;
+    width:9.863400488400492%;
+    height:12.844649919233554%;
+    margin-top:33.005189255189265%;
+}
+.outer_q25{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:122;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q26{
+    position:relative;
+    z-index:121;
+    pointer-events:auto;
+    margin-left:60.66849816849818%;
+    width:5.278922466422468%;
+    height:0.11697209380047903%;
+    margin-top:44.833638583638596%;
+}
+.outer_q26{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:121;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q27{
+    position:relative;
+    z-index:120;
+    pointer-events:auto;
+    margin-left:60.859279609279625%;
+    width:4.824862637362639%;
+    height:0.11418704394808667%;
+    margin-top:38.91941391941393%;
+}
+.outer_q27{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:120;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q28{
+    position:relative;
+    z-index:119;
+    pointer-events:auto;
+    margin-left:60.859279609279625%;
+    width:4.824862637362639%;
+    height:0.11697209380047903%;
+    margin-top:38.347069597069606%;
+}
+.outer_q28{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:119;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q29{
+    position:relative;
+    z-index:118;
+    pointer-events:auto;
+    margin-left:57.806776556776576%;
+    width:10.624618437118441%;
+    height:9.416253550938562%;
+    margin-top:35.29456654456656%;
+}
+.outer_q29{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:118;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q30{
+    position:relative;
+    z-index:117;
+    pointer-events:auto;
+    margin-left:59.523809523809554%;
+    width:8.419184981684985%;
+    height:0.11697209380047903%;
+    margin-top:43.8797313797314%;
+}
+.outer_q30{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:117;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q31{
+    position:relative;
+    z-index:116;
+    pointer-events:auto;
+    margin-left:59.52380952380954%;
+    width:7.619810744810747%;
+    height:1.2978332312148388%;
+    margin-top:33.577533577533586%;
+}
+.outer_q31{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:116;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q32{
+    position:relative;
+    z-index:115;
+    pointer-events:auto;
+    margin-left:59.52380952380954%;
+    width:7.541590354090356%;
+    height:1.175291037709575%;
+    margin-top:33.577533577533586%;
+}
+.outer_q32{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:115;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q33{
+    position:relative;
+    z-index:114;
+    pointer-events:auto;
+    margin-left:58.95146520146522%;
+    width:8.693910256410259%;
+    height:4.3502478694368625%;
+    margin-top:34.34065934065935%;
+}
+.outer_q33{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:114;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q34{
+    position:relative;
+    z-index:113;
+    pointer-events:auto;
+    margin-left:58.56990231990233%;
+    width:9.861492673992677%;
+    height:12.844649919233554%;
+    margin-top:33.005189255189265%;
+}
+.outer_q34{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:113;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q35{
+    position:relative;
+    z-index:112;
+    pointer-events:auto;
+    margin-left:61.05006105006107%;
+    width:5.278922466422468%;
+    height:0.11697209380047903%;
+    margin-top:27.66330891330892%;
+}
+.outer_q35{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:112;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q36{
+    position:relative;
+    z-index:111;
+    pointer-events:auto;
+    margin-left:61.05006105006107%;
+    width:4.824862637362639%;
+    height:0.11697209380047903%;
+    margin-top:21.749084249084255%;
+}
+.outer_q36{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:111;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q37{
+    position:relative;
+    z-index:110;
+    pointer-events:auto;
+    margin-left:61.05006105006107%;
+    width:4.824862637362639%;
+    height:0.11697209380047903%;
+    margin-top:21.176739926739934%;
+}
+.outer_q37{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:110;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q38{
+    position:relative;
+    z-index:109;
+    pointer-events:auto;
+    margin-left:57.99755799755801%;
+    width:10.624618437118441%;
+    height:9.419038600790953%;
+    margin-top:18.12423687423688%;
+}
+.outer_q38{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:109;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q39{
+    position:relative;
+    z-index:108;
+    pointer-events:auto;
+    margin-left:59.90537240537243%;
+    width:8.419184981684985%;
+    height:0.11697209380047903%;
+    margin-top:26.518620268620282%;
+}
+.outer_q39{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:108;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q40{
+    position:relative;
+    z-index:107;
+    pointer-events:auto;
+    margin-left:59.905372405372425%;
+    width:7.617902930402932%;
+    height:1.2866930318052694%;
+    margin-top:16.40720390720391%;
+}
+.outer_q40{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:107;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q41{
+    position:relative;
+    z-index:106;
+    pointer-events:auto;
+    margin-left:59.905372405372425%;
+    width:7.541590354090356%;
+    height:1.175291037709575%;
+    margin-top:16.40720390720391%;
+}
+.outer_q41{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:106;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q42{
+    position:relative;
+    z-index:105;
+    pointer-events:auto;
+    margin-left:59.3330280830281%;
+    width:8.695818070818074%;
+    height:4.3502478694368625%;
+    margin-top:17.170329670329675%;
+}
+.outer_q42{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:105;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q43{
+    position:relative;
+    z-index:104;
+    pointer-events:auto;
+    margin-left:58.760683760683776%;
+    width:9.863400488400492%;
+    height:12.844649919233554%;
+    margin-top:15.83485958485959%;
+}
+.outer_q43{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:104;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q44{
+    position:relative;
+    z-index:103;
+    pointer-events:auto;
+    margin-left:82.41758241758244%;
+    width:5.278922466422468%;
+    height:0.11697209380047903%;
+    margin-top:27.66330891330892%;
+}
+.outer_q44{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:103;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q45{
+    position:relative;
+    z-index:102;
+    pointer-events:auto;
+    margin-left:82.60836385836389%;
+    width:4.824862637362639%;
+    height:0.11697209380047903%;
+    margin-top:21.749084249084255%;
+}
+.outer_q45{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:102;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q46{
+    position:relative;
+    z-index:101;
+    pointer-events:auto;
+    margin-left:82.60836385836389%;
+    width:4.824862637362639%;
+    height:0.11697209380047903%;
+    margin-top:21.176739926739934%;
+}
+.outer_q46{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:101;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q47{
+    position:relative;
+    z-index:100;
+    pointer-events:auto;
+    margin-left:79.55586080586083%;
+    width:10.624618437118441%;
+    height:9.419038600790953%;
+    margin-top:18.12423687423688%;
+}
+.outer_q47{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:100;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q48{
+    position:relative;
+    z-index:99;
+    pointer-events:auto;
+    margin-left:81.27289377289381%;
+    width:8.419184981684985%;
+    height:0.11697209380047903%;
+    margin-top:26.518620268620282%;
+}
+.outer_q48{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:99;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q49{
+    position:relative;
+    z-index:98;
+    pointer-events:auto;
+    margin-left:81.2728937728938%;
+    width:7.617902930402932%;
+    height:1.2866930318052694%;
+    margin-top:16.40720390720391%;
+}
+.outer_q49{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:98;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q50{
+    position:relative;
+    z-index:97;
+    pointer-events:auto;
+    margin-left:81.2728937728938%;
+    width:7.541590354090356%;
+    height:1.175291037709575%;
+    margin-top:16.40720390720391%;
+}
+.outer_q50{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:97;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q51{
+    position:relative;
+    z-index:96;
+    pointer-events:auto;
+    margin-left:80.70054945054947%;
+    width:8.695818070818074%;
+    height:4.3502478694368625%;
+    margin-top:17.170329670329675%;
+}
+.outer_q51{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:96;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q52{
+    position:relative;
+    z-index:95;
+    pointer-events:auto;
+    margin-left:80.31898656898659%;
+    width:9.863400488400492%;
+    height:12.844649919233554%;
+    margin-top:15.83485958485959%;
+}
+.outer_q52{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:95;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q53{
+    position:relative;
+    z-index:94;
+    pointer-events:auto;
+    margin-left:87.75946275946278%;
+    width:0.14880952380952386%;
+    height:0.2172338884866039%;
+    margin-top:11.637667887667892%;
+}
+.outer_q53{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:94;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q54{
+    position:relative;
+    z-index:93;
+    pointer-events:auto;
+    margin-left:87.56868131868134%;
+    width:0.14880952380952386%;
+    height:0.2172338884866039%;
+    margin-top:11.637667887667892%;
+}
+.outer_q54{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:93;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q55{
+    position:relative;
+    z-index:92;
+    pointer-events:auto;
+    margin-left:87.3778998778999%;
+    width:0.14880952380952386%;
+    height:0.2172338884866039%;
+    margin-top:11.637667887667892%;
+}
+.outer_q55{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:92;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q56{
+    position:relative;
+    z-index:91;
+    pointer-events:auto;
+    margin-left:86.61477411477412%;
+    width:0.5475427350427351%;
+    height:1.175291037709575%;
+    margin-top:11.065323565323567%;
+}
+.outer_q56{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:91;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q57{
+    position:relative;
+    z-index:90;
+    pointer-events:auto;
+    margin-left:86.04242979242981%;
+    width:0.541819291819292%;
+    height:0.8577953545368462%;
+    margin-top:11.25610500610501%;
+}
+.outer_q57{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:90;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q58{
+    position:relative;
+    z-index:89;
+    pointer-events:auto;
+    margin-left:85.66086691086696%;
+    width:0.31478937728937745%;
+    height:0.8522252548320615%;
+    margin-top:11.256105006105011%;
+}
+.outer_q58{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:89;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q59{
+    position:relative;
+    z-index:88;
+    pointer-events:auto;
+    margin-left:84.89774114774116%;
+    width:0.4998473748473749%;
+    height:0.8577953545368462%;
+    margin-top:11.256105006105006%;
+}
+.outer_q59{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:88;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q60{
+    position:relative;
+    z-index:87;
+    pointer-events:auto;
+    margin-left:84.32539682539685%;
+    width:0.5723443223443225%;
+    height:0.8383000055700996%;
+    margin-top:11.25610500610501%;
+}
+.outer_q60{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:87;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q61{
+    position:relative;
+    z-index:86;
+    pointer-events:auto;
+    margin-left:83.56227106227108%;
+    width:0.5818833943833945%;
+    height:1.1335152899236896%;
+    margin-top:11.065323565323569%;
+}
+.outer_q61{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:86;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q62{
+    position:relative;
+    z-index:85;
+    pointer-events:auto;
+    margin-left:82.6083638583639%;
+    width:15.144230769230777%;
+    height:3.53144321283351%;
+    margin-top:10.111416361416367%;
+}
+.outer_q62{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:85;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q63{
+    position:relative;
+    z-index:84;
+    pointer-events:auto;
+    margin-left:54.372710622710635%;
+    width:1.0550213675213678%;
+    height:1.5401325683729739%;
+    margin-top:5.914224664224666%;
+}
+.outer_q63{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:84;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q64{
+    position:relative;
+    z-index:83;
+    pointer-events:auto;
+    margin-left:52.46489621489623%;
+    width:1.0550213675213678%;
+    height:1.5401325683729739%;
+    margin-top:5.914224664224666%;
+}
+.outer_q64{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:83;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q65{
+    position:relative;
+    z-index:82;
+    pointer-events:auto;
+    margin-left:50.747863247863265%;
+    width:1.0550213675213678%;
+    height:1.5401325683729739%;
+    margin-top:5.914224664224666%;
+}
+.outer_q65{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:82;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q66{
+    position:relative;
+    z-index:81;
+    pointer-events:auto;
+    margin-left:49.030830280830294%;
+    width:51.022588522588535%;
+    height:0.11697209380047903%;
+    margin-top:8.585164835164838%;
+}
+.outer_q66{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:81;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q67{
+    position:relative;
+    z-index:80;
+    pointer-events:auto;
+    margin-left:48.26770451770453%;
+    width:51.558684371184384%;
+    height:66.2145602406283%;
+    margin-top:3.8156288156288167%;
+}
+.outer_q67{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:80;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q68{
+    position:relative;
+    z-index:79;
+    pointer-events:auto;
+    margin-left:48.45848595848597%;
+    width:51.44803113553115%;
+    height:66.05024229933716%;
+    margin-top:4.006410256410257%;
+}
+.outer_q68{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:79;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q69{
+    position:relative;
+    z-index:78;
+    pointer-events:auto;
+    margin-left:24.229242979242986%;
+    width:4.1113400488400496%;
+    height:0.1977385395198574%;
+    margin-top:63.72100122100124%;
+}
+.outer_q69{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:78;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q70{
+    position:relative;
+    z-index:77;
+    pointer-events:auto;
+    margin-left:23.08455433455434%;
+    width:6.3854548229548245%;
+    height:0.17545814070071855%;
+    margin-top:62.957875457875474%;
+}
+.outer_q70{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:77;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q71{
+    position:relative;
+    z-index:76;
+    pointer-events:auto;
+    margin-left:21.749084249084255%;
+    width:8.888507326007328%;
+    height:8.839748231493344%;
+    margin-top:53.991147741147756%;
+}
+.outer_q71{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:76;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q72{
+    position:relative;
+    z-index:75;
+    pointer-events:auto;
+    margin-left:22.51221001221002%;
+    width:7.7724358974359%;
+    height:7.912326630646689%;
+    margin-top:53.80036630036631%;
+}
+.outer_q72{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:75;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q73{
+    position:relative;
+    z-index:74;
+    pointer-events:auto;
+    margin-left:22.321428571428577%;
+    width:7.896443833943836%;
+    height:7.64217679496463%;
+    margin-top:53.22802197802199%;
+}
+.outer_q73{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:74;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q74{
+    position:relative;
+    z-index:73;
+    pointer-events:auto;
+    margin-left:28.044871794871803%;
+    width:4.1113400488400496%;
+    height:0.1977385395198574%;
+    margin-top:37.01159951159952%;
+}
+.outer_q74{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:73;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q75{
+    position:relative;
+    z-index:72;
+    pointer-events:auto;
+    margin-left:26.900183150183157%;
+    width:6.3854548229548245%;
+    height:0.17545814070071855%;
+    margin-top:36.24847374847376%;
+}
+.outer_q75{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:72;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q76{
+    position:relative;
+    z-index:71;
+    pointer-events:auto;
+    margin-left:25.56471306471307%;
+    width:8.8980463980464%;
+    height:8.834178131788558%;
+    margin-top:27.28174603174604%;
+}
+.outer_q76{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:71;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q77{
+    position:relative;
+    z-index:70;
+    pointer-events:auto;
+    margin-left:26.137057387057393%;
+    width:7.7724358974359%;
+    height:7.912326630646689%;
+    margin-top:27.0909645909646%;
+}
+.outer_q77{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:70;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q78{
+    position:relative;
+    z-index:69;
+    pointer-events:auto;
+    margin-left:26.137057387057393%;
+    width:7.909798534798537%;
+    height:7.64217679496463%;
+    margin-top:26.518620268620275%;
+}
+.outer_q78{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:69;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q79{
+    position:relative;
+    z-index:68;
+    pointer-events:auto;
+    margin-left:27.66330891330892%;
+    width:4.109432234432235%;
+    height:0.1977385395198574%;
+    margin-top:15.262515262515267%;
+}
+.outer_q79{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:68;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q80{
+    position:relative;
+    z-index:67;
+    pointer-events:auto;
+    margin-left:26.518620268620275%;
+    width:6.3854548229548245%;
+    height:0.17545814070071855%;
+    margin-top:14.499389499389503%;
+}
+.outer_q80{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:67;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q81{
+    position:relative;
+    z-index:66;
+    pointer-events:auto;
+    margin-left:25.373931623931632%;
+    width:8.8980463980464%;
+    height:8.839748231493344%;
+    margin-top:5.723443223443225%;
+}
+.outer_q81{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:66;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q82{
+    position:relative;
+    z-index:65;
+    pointer-events:auto;
+    margin-left:25.946275946275954%;
+    width:7.7724358974359%;
+    height:7.912326630646689%;
+    margin-top:5.341880341880343%;
+}
+.outer_q82{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:65;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q83{
+    position:relative;
+    z-index:64;
+    pointer-events:auto;
+    margin-left:25.946275946275954%;
+    width:7.875457875457878%;
+    height:7.622681445997883%;
+    margin-top:4.960317460317461%;
+}
+.outer_q83{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:64;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q84{
+    position:relative;
+    z-index:63;
+    pointer-events:auto;
+    margin-left:41.590354090354104%;
+    width:4.109432234432235%;
+    height:0.1977385395198574%;
+    margin-top:59.905372405372425%;
+}
+.outer_q84{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:63;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q85{
+    position:relative;
+    z-index:62;
+    pointer-events:auto;
+    margin-left:40.445665445665455%;
+    width:6.387362637362639%;
+    height:0.17545814070071855%;
+    margin-top:58.95146520146522%;
+}
+.outer_q85{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:62;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q86{
+    position:relative;
+    z-index:61;
+    pointer-events:auto;
+    margin-left:41.590354090354104%;
+    width:4.0102258852258865%;
+    height:0.06684119645741658%;
+    margin-top:55.517399267399284%;
+}
+.outer_q86{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:61;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q87{
+    position:relative;
+    z-index:60;
+    pointer-events:auto;
+    margin-left:41.590354090354104%;
+    width:4.0102258852258865%;
+    height:0.06684119645741658%;
+    margin-top:54.1819291819292%;
+}
+.outer_q87{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:60;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q88{
+    position:relative;
+    z-index:59;
+    pointer-events:auto;
+    margin-left:41.590354090354104%;
+    width:4.0102258852258865%;
+    height:0.06405614660502423%;
+    margin-top:53.22802197802199%;
+}
+.outer_q88{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:59;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q89{
+    position:relative;
+    z-index:58;
+    pointer-events:auto;
+    margin-left:41.590354090354104%;
+    width:4.0102258852258865%;
+    height:0.06684119645741658%;
+    margin-top:52.274114774114786%;
+}
+.outer_q89{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:58;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q90{
+    position:relative;
+    z-index:57;
+    pointer-events:auto;
+    margin-left:41.590354090354104%;
+    width:4.0102258852258865%;
+    height:0.06405614660502423%;
+    margin-top:51.320207570207586%;
+}
+.outer_q90{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:57;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q91{
+    position:relative;
+    z-index:56;
+    pointer-events:auto;
+    margin-left:41.590354090354104%;
+    width:2.720543345543346%;
+    height:0.06684119645741658%;
+    margin-top:50.175518925518936%;
+}
+.outer_q91{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:56;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q92{
+    position:relative;
+    z-index:55;
+    pointer-events:auto;
+    margin-left:44.452075702075724%;
+    width:2.5564713064713076%;
+    height:3.8461538461538463%;
+    margin-top:48.45848595848598%;
+}
+.outer_q92{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:55;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q93{
+    position:relative;
+    z-index:54;
+    pointer-events:auto;
+    margin-left:40.445665445665455%;
+    width:6.473214285714287%;
+    height:12.3906867932936%;
+    margin-top:48.45848595848597%;
+}
+.outer_q93{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:54;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q94{
+    position:relative;
+    z-index:53;
+    pointer-events:auto;
+    margin-left:44.452075702075724%;
+    width:2.5049603174603186%;
+    height:1.4120202751629254%;
+    margin-top:50.74786324786327%;
+}
+.outer_q94{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:53;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q95{
+    position:relative;
+    z-index:52;
+    pointer-events:auto;
+    margin-left:44.45207570207572%;
+    width:2.5316697191697197%;
+    height:3.807163148220353%;
+    margin-top:48.45848595848597%;
+}
+.outer_q95{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:52;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q96{
+    position:relative;
+    z-index:51;
+    pointer-events:auto;
+    margin-left:40.445665445665455%;
+    width:6.444597069597071%;
+    height:12.293210048459867%;
+    margin-top:48.45848595848597%;
+}
+.outer_q96{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:51;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q97{
+    position:relative;
+    z-index:50;
+    pointer-events:auto;
+    margin-left:7.8220390720390744%;
+    width:4.1113400488400496%;
+    height:0.1977385395198574%;
+    margin-top:60.286935286935304%;
+}
+.outer_q97{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:50;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q98{
+    position:relative;
+    z-index:49;
+    pointer-events:auto;
+    margin-left:6.677350427350429%;
+    width:6.3854548229548245%;
+    height:0.17545814070071855%;
+    margin-top:59.52380952380954%;
+}
+.outer_q98{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:49;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q99{
+    position:relative;
+    z-index:48;
+    pointer-events:auto;
+    margin-left:7.6312576312576335%;
+    width:4.008318070818072%;
+    height:0.06684119645741658%;
+    margin-top:56.089743589743605%;
+}
+.outer_q99{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:48;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q100{
+    position:relative;
+    z-index:47;
+    pointer-events:auto;
+    margin-left:7.6312576312576335%;
+    width:4.008318070818072%;
+    height:0.06405614660502423%;
+    margin-top:54.75427350427352%;
+}
+.outer_q100{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:47;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q101{
+    position:relative;
+    z-index:46;
+    pointer-events:auto;
+    margin-left:7.6312576312576335%;
+    width:4.008318070818072%;
+    height:0.06684119645741658%;
+    margin-top:53.80036630036631%;
+}
+.outer_q101{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:46;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q102{
+    position:relative;
+    z-index:45;
+    pointer-events:auto;
+    margin-left:7.6312576312576335%;
+    width:4.008318070818072%;
+    height:0.06684119645741658%;
+    margin-top:52.846459096459114%;
+}
+.outer_q102{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:45;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q103{
+    position:relative;
+    z-index:44;
+    pointer-events:auto;
+    margin-left:7.6312576312576335%;
+    width:4.008318070818072%;
+    height:0.06405614660502423%;
+    margin-top:51.701770451770464%;
+}
+.outer_q103{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:44;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q104{
+    position:relative;
+    z-index:43;
+    pointer-events:auto;
+    margin-left:7.6312576312576335%;
+    width:2.718635531135532%;
+    height:0.06684119645741658%;
+    margin-top:50.747863247863265%;
+}
+.outer_q104{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:43;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q105{
+    position:relative;
+    z-index:42;
+    pointer-events:auto;
+    margin-left:10.492979242979246%;
+    width:2.558379120879122%;
+    height:3.8572940455634157%;
+    margin-top:49.030830280830294%;
+}
+.outer_q105{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:42;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q106{
+    position:relative;
+    z-index:41;
+    pointer-events:auto;
+    margin-left:6.677350427350429%;
+    width:6.471306471306473%;
+    height:12.33220074639336%;
+    margin-top:49.030830280830294%;
+}
+.outer_q106{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:41;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q107{
+    position:relative;
+    z-index:40;
+    pointer-events:auto;
+    margin-left:10.492979242979246%;
+    width:2.503052503052504%;
+    height:1.4148053250153179%;
+    margin-top:51.12942612942614%;
+}
+.outer_q107{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:40;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q108{
+    position:relative;
+    z-index:39;
+    pointer-events:auto;
+    margin-left:10.492979242979246%;
+    width:2.5316697191697197%;
+    height:3.807163148220353%;
+    margin-top:49.030830280830294%;
+}
+.outer_q108{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:39;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q109{
+    position:relative;
+    z-index:38;
+    pointer-events:auto;
+    margin-left:6.677350427350429%;
+    width:6.444597069597071%;
+    height:12.298780148164653%;
+    margin-top:49.030830280830294%;
+}
+.outer_q109{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:38;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q110{
+    position:relative;
+    z-index:37;
+    pointer-events:auto;
+    margin-left:8.203601953601956%;
+    width:4.109432234432235%;
+    height:0.1977385395198574%;
+    margin-top:37.96550671550673%;
+}
+.outer_q110{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:37;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q111{
+    position:relative;
+    z-index:36;
+    pointer-events:auto;
+    margin-left:7.0589133089133105%;
+    width:6.387362637362639%;
+    height:0.17545814070071855%;
+    margin-top:37.20238095238096%;
+}
+.outer_q111{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:36;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q112{
+    position:relative;
+    z-index:35;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:4.008318070818072%;
+    height:0.06684119645741658%;
+    margin-top:33.577533577533586%;
+}
+.outer_q112{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:35;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q113{
+    position:relative;
+    z-index:34;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:4.008318070818072%;
+    height:0.06405614660502423%;
+    margin-top:32.432844932844944%;
+}
+.outer_q113{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:34;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q114{
+    position:relative;
+    z-index:33;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:4.008318070818072%;
+    height:0.06684119645741658%;
+    margin-top:31.478937728937737%;
+}
+.outer_q114{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:33;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q115{
+    position:relative;
+    z-index:32;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:4.008318070818072%;
+    height:0.06405614660502423%;
+    margin-top:30.33424908424909%;
+}
+.outer_q115{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:32;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q116{
+    position:relative;
+    z-index:31;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:4.008318070818072%;
+    height:0.06684119645741658%;
+    margin-top:29.380341880341888%;
+}
+.outer_q116{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:31;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q117{
+    position:relative;
+    z-index:30;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:2.718635531135532%;
+    height:0.06684119645741658%;
+    margin-top:28.426434676434685%;
+}
+.outer_q117{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:30;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q118{
+    position:relative;
+    z-index:29;
+    pointer-events:auto;
+    margin-left:10.874542124542128%;
+    width:2.558379120879122%;
+    height:3.8572940455634157%;
+    margin-top:26.518620268620275%;
+}
+.outer_q118{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:29;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q119{
+    position:relative;
+    z-index:28;
+    pointer-events:auto;
+    margin-left:6.86813186813187%;
+    width:6.457951770451772%;
+    height:12.326630646688576%;
+    margin-top:26.518620268620275%;
+}
+.outer_q119{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:28;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q120{
+    position:relative;
+    z-index:27;
+    pointer-events:auto;
+    margin-left:10.874542124542128%;
+    width:2.503052503052504%;
+    height:1.4120202751629254%;
+    margin-top:28.807997557997567%;
+}
+.outer_q120{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:27;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q121{
+    position:relative;
+    z-index:26;
+    pointer-events:auto;
+    margin-left:10.874542124542128%;
+    width:2.5316697191697197%;
+    height:3.8099481980727457%;
+    margin-top:26.709401709401718%;
+}
+.outer_q121{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:26;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q122{
+    position:relative;
+    z-index:25;
+    pointer-events:auto;
+    margin-left:6.86813186813187%;
+    width:6.444597069597071%;
+    height:12.29599509831226%;
+    margin-top:26.709401709401718%;
+}
+.outer_q122{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:25;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q123{
+    position:relative;
+    z-index:24;
+    pointer-events:auto;
+    margin-left:8.203601953601956%;
+    width:4.109432234432235%;
+    height:0.1977385395198574%;
+    margin-top:19.650488400488406%;
+}
+.outer_q123{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:24;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q124{
+    position:relative;
+    z-index:23;
+    pointer-events:auto;
+    margin-left:7.0589133089133105%;
+    width:6.387362637362639%;
+    height:0.17545814070071855%;
+    margin-top:18.887362637362642%;
+}
+.outer_q124{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:23;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q125{
+    position:relative;
+    z-index:22;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:4.008318070818072%;
+    height:0.06684119645741658%;
+    margin-top:15.453296703296708%;
+}
+.outer_q125{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:22;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q126{
+    position:relative;
+    z-index:21;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:4.008318070818072%;
+    height:0.06405614660502423%;
+    margin-top:14.117826617826621%;
+}
+.outer_q126{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:21;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q127{
+    position:relative;
+    z-index:20;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:4.008318070818072%;
+    height:0.06684119645741658%;
+    margin-top:13.163919413919418%;
+}
+.outer_q127{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:20;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q128{
+    position:relative;
+    z-index:19;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:4.008318070818072%;
+    height:0.06405614660502423%;
+    margin-top:12.210012210012213%;
+}
+.outer_q128{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:19;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q129{
+    position:relative;
+    z-index:18;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:4.008318070818072%;
+    height:0.06684119645741658%;
+    margin-top:11.065323565323569%;
+}
+.outer_q129{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:18;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q130{
+    position:relative;
+    z-index:17;
+    pointer-events:auto;
+    margin-left:8.012820512820515%;
+    width:2.718635531135532%;
+    height:0.06684119645741658%;
+    margin-top:10.111416361416364%;
+}
+.outer_q130{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:17;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q131{
+    position:relative;
+    z-index:16;
+    pointer-events:auto;
+    margin-left:10.874542124542128%;
+    width:2.558379120879122%;
+    height:3.8572940455634157%;
+    margin-top:8.394383394383397%;
+}
+.outer_q131{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:16;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q132{
+    position:relative;
+    z-index:15;
+    pointer-events:auto;
+    margin-left:6.86813186813187%;
+    width:6.4770299145299175%;
+    height:12.326630646688576%;
+    margin-top:8.394383394383397%;
+}
+.outer_q132{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:15;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q133{
+    position:relative;
+    z-index:14;
+    pointer-events:auto;
+    margin-left:10.874542124542128%;
+    width:2.503052503052504%;
+    height:1.4120202751629254%;
+    margin-top:10.492979242979246%;
+}
+.outer_q133{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:14;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q134{
+    position:relative;
+    z-index:13;
+    pointer-events:auto;
+    margin-left:10.874542124542128%;
+    width:2.5316697191697197%;
+    height:3.8099481980727457%;
+    margin-top:8.394383394383397%;
+}
+.outer_q134{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:13;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q135{
+    position:relative;
+    z-index:12;
+    pointer-events:auto;
+    margin-left:6.86813186813187%;
+    width:6.444597069597071%;
+    height:12.298780148164653%;
+    margin-top:8.394383394383397%;
+}
+.outer_q135{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:12;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q136{
+    position:relative;
+    z-index:11;
+    pointer-events:auto;
+    margin-left:0%;
+    width:87.5362484737485%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q136{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:11;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q137{
+    position:relative;
+    z-index:10;
+    pointer-events:auto;
+    margin-left:0%;
+    width:87.42750305250307%;
+    height:99.83011195900407%;
+    margin-top:0%;
+}
+.outer_q137{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:10;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q138{
+    position:relative;
+    z-index:131;
+    pointer-events:auto;
+    opacity:0;
+    margin-left:66px;
+    width:414.22px;
+    min-width:414.22px;
+    height:357.5px;
+    margin-top:-513.21px;
+    margin-bottom:155.71000000000004px;
+    min-height:357.5px;
+}
+.outer_q138{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:131;
+}
+.q139{
+    position:relative;
+    z-index:133;
+    pointer-events:auto;
+    margin-left:0.48283520834339244%;
+    width:22.290087393172712%;
+    height:25.826573426573425%;
+    margin-top:5.06976968760562%;
+}
+.outer_q139{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:133;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q140{
+    position:relative;
+    z-index:132;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q140{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:132;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q141{
+    position:relative;
+    z-index:136;
+    pointer-events:auto;
+    margin-left:97px;
+    width:244.72px;
+    min-width:244.72px;
+    height:232.55px;
+    margin-top:-454.21000000000004px;
+    margin-bottom:221.66000000000003px;
+    min-height:232.55px;
+}
+.outer_q141{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:136;
+}
+.q142{
+    position:relative;
+    z-index:169;
+    pointer-events:auto;
+    margin-left:89.89865969271001%;
+    width:2.8767571101667206%;
+    height:3.0316061062137174%;
+    margin-top:6.129454069957501%;
+}
+.outer_q142{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:169;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q143{
+    position:relative;
+    z-index:168;
+    pointer-events:auto;
+    margin-left:89.89865969271001%;
+    width:2.8767571101667206%;
+    height:3.0316061062137174%;
+    margin-top:6.129454069957501%;
+}
+.outer_q143{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:168;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q144{
+    position:relative;
+    z-index:167;
+    pointer-events:auto;
+    margin-left:86.22098725073556%;
+    width:9.668192219679636%;
+    height:10.17415609546334%;
+    margin-top:2.4517816279830016%;
+}
+.outer_q144{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:167;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q145{
+    position:relative;
+    z-index:166;
+    pointer-events:auto;
+    margin-left:50.67015364498201%;
+    width:0.21657404380516504%;
+    height:1.9393678778757255%;
+    margin-top:28.195488721804505%;
+}
+.outer_q145{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:166;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q146{
+    position:relative;
+    z-index:165;
+    pointer-events:auto;
+    margin-left:49.85289310232101%;
+    width:2.05132396207911%;
+    height:2.158675553644377%;
+    margin-top:26.56096763648251%;
+}
+.outer_q146{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:165;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q147{
+    position:relative;
+    z-index:164;
+    pointer-events:auto;
+    margin-left:46.17522066034652%;
+    width:8.675220660346518%;
+    height:9.129219522683293%;
+    margin-top:24.10918600849951%;
+}
+.outer_q147{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:164;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q148{
+    position:relative;
+    z-index:163;
+    pointer-events:auto;
+    margin-left:48.218372016999005%;
+    width:5.128309905197775%;
+    height:4.106643732530639%;
+    margin-top:20.0228832951945%;
+}
+.outer_q148{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:163;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q149{
+    position:relative;
+    z-index:162;
+    pointer-events:auto;
+    margin-left:37.593984962406005%;
+    width:26.274926446551152%;
+    height:27.64996774887121%;
+    margin-top:13.4847989539065%;
+}
+.outer_q149{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:162;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q150{
+    position:relative;
+    z-index:161;
+    pointer-events:auto;
+    margin-left:74.37070938215103%;
+    width:6.517652827721478%;
+    height:0.30531068587400556%;
+    margin-top:68.24125531219353%;
+}
+.outer_q150{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:161;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q151{
+    position:relative;
+    z-index:160;
+    pointer-events:auto;
+    margin-left:71.91892775416802%;
+    width:11.752206603465183%;
+    height:17.3253063857235%;
+    margin-top:56.39097744360902%;
+}
+.outer_q151{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:160;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q152{
+    position:relative;
+    z-index:159;
+    pointer-events:auto;
+    margin-left:58.43412880026152%;
+    width:11.752206603465183%;
+    height:17.3253063857235%;
+    margin-top:56.39097744360902%;
+}
+.outer_q152{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:159;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q153{
+    position:relative;
+    z-index:158;
+    pointer-events:auto;
+    margin-left:44.54069957502451%;
+    width:11.752206603465183%;
+    height:17.3253063857235%;
+    margin-top:56.39097744360902%;
+}
+.outer_q153{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:158;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q154{
+    position:relative;
+    z-index:157;
+    pointer-events:auto;
+    margin-left:30.647270349787508%;
+    width:11.752206603465183%;
+    height:17.3253063857235%;
+    margin-top:56.39097744360902%;
+}
+.outer_q154{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:157;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q155{
+    position:relative;
+    z-index:156;
+    pointer-events:auto;
+    margin-left:16.753841124550505%;
+    width:11.752206603465183%;
+    height:17.3253063857235%;
+    margin-top:56.39097744360902%;
+}
+.outer_q155{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:156;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q156{
+    position:relative;
+    z-index:155;
+    pointer-events:auto;
+    margin-left:62.111801242236005%;
+    width:4.719679633867275%;
+    height:4.794667813373468%;
+    margin-top:61.703170970905504%;
+}
+.outer_q156{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:155;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q157{
+    position:relative;
+    z-index:154;
+    pointer-events:auto;
+    margin-left:48.21837201699902%;
+    width:4.7319385420071916%;
+    height:4.807568264889271%;
+    margin-top:61.703170970905525%;
+}
+.outer_q157{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:154;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q158{
+    position:relative;
+    z-index:153;
+    pointer-events:auto;
+    margin-left:34.324942791762005%;
+    width:4.715593331153971%;
+    height:4.794667813373468%;
+    margin-top:61.70317097090551%;
+}
+.outer_q158{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:153;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q159{
+    position:relative;
+    z-index:152;
+    pointer-events:auto;
+    margin-left:20.43151356652501%;
+    width:4.736024844720497%;
+    height:4.794667813373468%;
+    margin-top:62.11180124223603%;
+}
+.outer_q159{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:152;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q160{
+    position:relative;
+    z-index:151;
+    pointer-events:auto;
+    margin-left:71.91892775416801%;
+    width:11.760379208891791%;
+    height:17.11459901096538%;
+    margin-top:56.39097744360901%;
+}
+.outer_q160{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:151;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q161{
+    position:relative;
+    z-index:150;
+    pointer-events:auto;
+    margin-left:58.43412880026151%;
+    width:11.760379208891791%;
+    height:17.11459901096538%;
+    margin-top:56.39097744360901%;
+}
+.outer_q161{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:150;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q162{
+    position:relative;
+    z-index:149;
+    pointer-events:auto;
+    margin-left:31.05590062111801%;
+    width:11.437561294540698%;
+    height:17.11459901096538%;
+    margin-top:56.39097744360902%;
+}
+.outer_q162{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:149;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q163{
+    position:relative;
+    z-index:148;
+    pointer-events:auto;
+    margin-left:44.54069957502451%;
+    width:11.437561294540698%;
+    height:17.11459901096538%;
+    margin-top:56.39097744360902%;
+}
+.outer_q163{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:148;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q164{
+    position:relative;
+    z-index:147;
+    pointer-events:auto;
+    margin-left:16.753841124550505%;
+    width:11.752206603465183%;
+    height:17.11459901096538%;
+    margin-top:56.39097744360902%;
+}
+.outer_q164{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:147;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q165{
+    position:relative;
+    z-index:146;
+    pointer-events:auto;
+    margin-left:62.111801242236%;
+    width:3.7103628636809396%;
+    height:4.940872930552569%;
+    margin-top:44.132069303693996%;
+}
+.outer_q165{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:146;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q166{
+    position:relative;
+    z-index:145;
+    pointer-events:auto;
+    margin-left:60.06864988558354%;
+    width:2.1044458973520763%;
+    height:3.599225972909051%;
+    margin-top:45.35796011768553%;
+}
+.outer_q166{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:145;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q167{
+    position:relative;
+    z-index:144;
+    pointer-events:auto;
+    margin-left:55.57371690094801%;
+    width:3.6899313501144153%;
+    height:3.887336056761986%;
+    margin-top:45.35796011768551%;
+}
+.outer_q167{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:144;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q168{
+    position:relative;
+    z-index:143;
+    pointer-events:auto;
+    margin-left:49.4442628309905%;
+    width:5.8434128800261504%;
+    height:3.534723715330037%;
+    margin-top:45.766590389016%;
+}
+.outer_q168{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:143;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q169{
+    position:relative;
+    z-index:142;
+    pointer-events:auto;
+    margin-left:46.583850931677006%;
+    width:3.036122915985615%;
+    height:3.6379273274564614%;
+    margin-top:45.3579601176855%;
+}
+.outer_q169{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:142;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q170{
+    position:relative;
+    z-index:141;
+    pointer-events:auto;
+    margin-left:43.314808761033014%;
+    width:3.015691402419091%;
+    height:3.6379273274564614%;
+    margin-top:45.357960117685515%;
+}
+.outer_q170{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:141;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q171{
+    position:relative;
+    z-index:140;
+    pointer-events:auto;
+    margin-left:39.637136319058506%;
+    width:3.1873161163779002%;
+    height:3.6293270264459254%;
+    margin-top:45.766590389016%;
+}
+.outer_q171{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:140;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q172{
+    position:relative;
+    z-index:139;
+    pointer-events:auto;
+    margin-left:35.142203334423016%;
+    width:3.767571101667212%;
+    height:4.596860890131154%;
+    margin-top:44.54069957502452%;
+}
+.outer_q172{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:139;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q173{
+    position:relative;
+    z-index:138;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q173{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:138;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q174{
+    position:relative;
+    z-index:137;
+    pointer-events:auto;
+    margin-left:0.40863027133049995%;
+    width:99.74256292906173%;
+    height:99.7333906686734%;
+    margin-top:0%;
+}
+.outer_q174{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:137;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q175{
+    position:relative;
+    z-index:187;
+    pointer-events:auto;
+    margin-left:144px;
+    width:382.14px;
+    min-width:382.14px;
+    height:379.01px;
+    margin-top:-379.21000000000004px;
+    margin-bottom:0.20000000000004547px;
+    min-height:379.01px;
+}
+.outer_q175{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:187;
+}
+.q176{
+    position:relative;
+    z-index:202;
+    pointer-events:auto;
+    opacity:0.30000001192092896;
+    margin-left:160px;
+    width:8.14px;
+    min-width:8.14px;
+    height:57.04px;
+    margin-top:220px;
+    margin-bottom:101.97000000000003px;
+    min-height:57.04px;
+}
+.outer_q176{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:202;
+}
+.q177{
+    position:relative;
+    z-index:203;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q177{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:203;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q178{
+    position:relative;
+    z-index:233;
+    pointer-events:auto;
+    opacity:0.30000001192092896;
+    margin-left:307px;
+    width:17.09px;
+    min-width:17.09px;
+    height:69.87px;
+    margin-top:-145.01px;
+    margin-bottom:75.13999999999999px;
+    min-height:69.87px;
+}
+.outer_q178{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:233;
+}
+.q179{
+    position:relative;
+    z-index:234;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q179{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:234;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q180{
+    position:relative;
+    z-index:230;
+    pointer-events:auto;
+    opacity:0.30000001192092896;
+    margin-left:237px;
+    width:46.36px;
+    min-width:46.36px;
+    height:23.54px;
+    margin-top:-97.00999999999999px;
+    margin-bottom:73.47000000000003px;
+    min-height:23.54px;
+}
+.outer_q180{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:230;
+}
+.q181{
+    position:relative;
+    z-index:231;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q181{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:231;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q182{
+    position:relative;
+    z-index:219;
+    pointer-events:auto;
+    opacity:0.30000001192092896;
+    margin-left:325px;
+    width:36.74px;
+    min-width:36.74px;
+    height:24.26px;
+    margin-top:-77.00999999999999px;
+    margin-bottom:52.75px;
+    min-height:24.26px;
+}
+.outer_q182{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:219;
+}
+.q183{
+    position:relative;
+    z-index:220;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q183{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:220;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q184{
+    position:relative;
+    z-index:190;
+    pointer-events:auto;
+    opacity:0.30000001192092896;
+    margin-left:242px;
+    width:114.7px;
+    min-width:114.7px;
+    height:22.98px;
+    margin-top:-29.00999999999999px;
+    margin-bottom:6.029999999999973px;
+    min-height:22.98px;
+}
+.outer_q184{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:190;
+}
+.q185{
+    position:relative;
+    z-index:191;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q185{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:191;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q186{
+    position:relative;
+    z-index:262;
+    pointer-events:auto;
+    margin-left:64.11262887946828%;
+    width:29.198722981106407%;
+    height:0.7255745230996544%;
+    margin-top:97.08483801748052%;
+}
+.outer_q186{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:262;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q187{
+    position:relative;
+    z-index:261;
+    pointer-events:auto;
+    margin-left:55.738734495211204%;
+    width:3.0590882922489153%;
+    height:3.342919711880953%;
+    margin-top:26.43010415031142%;
+}
+.outer_q187{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:261;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q188{
+    position:relative;
+    z-index:260;
+    pointer-events:auto;
+    margin-left:56.52378709373528%;
+    width:2.8340398806720053%;
+    height:2.8970211867760747%;
+    margin-top:27.215156748835508%;
+}
+.outer_q188{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:260;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q189{
+    position:relative;
+    z-index:259;
+    pointer-events:auto;
+    margin-left:71.96315486470927%;
+    width:4.741717695085571%;
+    height:6.801931347457851%;
+    margin-top:11.514104778353483%;
+}
+.outer_q189{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:259;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q190{
+    position:relative;
+    z-index:258;
+    pointer-events:auto;
+    margin-left:50.24336630554249%;
+    width:21.58894645941279%;
+    height:15.223872721036384%;
+    margin-top:5.233683990160676%;
+}
+.outer_q190{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:258;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q191{
+    position:relative;
+    z-index:257;
+    pointer-events:auto;
+    margin-left:66.20610247553256%;
+    width:5.615742921442406%;
+    height:10.978602147700588%;
+    margin-top:13.60757837441776%;
+}
+.outer_q191{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:257;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q192{
+    position:relative;
+    z-index:256;
+    pointer-events:auto;
+    margin-left:72.22483906421732%;
+    width:1.8396399225414775%;
+    height:1.8310862510224004%;
+    margin-top:25.64505155178731%;
+}
+.outer_q192{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:256;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q193{
+    position:relative;
+    z-index:255;
+    pointer-events:auto;
+    margin-left:72.22483906421733%;
+    width:1.6826294028366575%;
+    height:1.6965251576475555%;
+    margin-top:25.645051551787315%;
+}
+.outer_q193{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:255;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q194{
+    position:relative;
+    z-index:254;
+    pointer-events:auto;
+    margin-left:49.98168210603446%;
+    width:23.017742188726654%;
+    height:14.524682726049445%;
+    margin-top:3.9252629926205076%;
+}
+.outer_q194{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:254;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q195{
+    position:relative;
+    z-index:253;
+    pointer-events:auto;
+    margin-left:72.48652326372536%;
+    width:1.897210446433245%;
+    height:3.772987520118203%;
+    margin-top:21.458104359658773%;
+}
+.outer_q195{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:253;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q196{
+    position:relative;
+    z-index:252;
+    pointer-events:auto;
+    margin-left:71.17810226618516%;
+    width:4.2811535039514315%;
+    height:6.622516556291391%;
+    margin-top:20.149683362118594%;
+}
+.outer_q196{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:252;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q197{
+    position:relative;
+    z-index:251;
+    pointer-events:auto;
+    margin-left:48.93494530800232%;
+    width:25.315329460407188%;
+    height:21.97831191789135%;
+    margin-top:1.308420997540169%;
+}
+.outer_q197{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:251;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q198{
+    position:relative;
+    z-index:250;
+    pointer-events:auto;
+    margin-left:48.411576908986234%;
+    width:3.7604019469304446%;
+    height:1.250626632542677%;
+    margin-top:13.34589417490972%;
+}
+.outer_q198{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:250;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q199{
+    position:relative;
+    z-index:249;
+    pointer-events:auto;
+    margin-left:58.87894488930762%;
+    width:5.006018736588688%;
+    height:1.474895121500752%;
+    margin-top:13.084209975401693%;
+}
+.outer_q199{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:249;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q200{
+    position:relative;
+    z-index:248;
+    pointer-events:auto;
+    margin-left:54.43031349767103%;
+    width:10.530172188203279%;
+    height:4.807261022136619%;
+    margin-top:35.589051133092596%;
+}
+.outer_q200{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:248;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q201{
+    position:relative;
+    z-index:247;
+    pointer-events:auto;
+    margin-left:52.33683990160677%;
+    width:3.3103051237766286%;
+    height:9.242500197883961%;
+    margin-top:17.271157167530234%;
+}
+.outer_q201{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:247;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q202{
+    position:relative;
+    z-index:246;
+    pointer-events:auto;
+    margin-left:58.61726068979958%;
+    width:4.043020882399123%;
+    height:1.0975963694889317%;
+    margin-top:16.747788768514166%;
+}
+.outer_q202{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:246;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q203{
+    position:relative;
+    z-index:245;
+    pointer-events:auto;
+    margin-left:58.878944889307604%;
+    width:2.0332862301774224%;
+    height:1.9735627028310598%;
+    margin-top:19.626314963102534%;
+}
+.outer_q203{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:245;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q204{
+    position:relative;
+    z-index:244;
+    pointer-events:auto;
+    margin-left:48.149892709478216%;
+    width:4.0456377243942026%;
+    height:1.0975963694889317%;
+    margin-top:16.747788768514162%;
+}
+.outer_q204{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:244;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q205{
+    position:relative;
+    z-index:243;
+    pointer-events:auto;
+    margin-left:49.458313707018384%;
+    width:2.0332862301774224%;
+    height:1.968285797208517%;
+    margin-top:19.626314963102534%;
+}
+.outer_q205{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:243;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q206{
+    position:relative;
+    z-index:242;
+    pointer-events:auto;
+    margin-left:46.57978751243002%;
+    width:25.692154707698762%;
+    height:55.68718503469566%;
+    margin-top:4.448631391636575%;
+}
+.outer_q206{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:242;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q207{
+    position:relative;
+    z-index:241;
+    pointer-events:auto;
+    margin-left:43.96294551734969%;
+    width:10.435965876380392%;
+    height:27.194533125775045%;
+    margin-top:3.663578793112474%;
+}
+.outer_q207{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:241;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q208{
+    position:relative;
+    z-index:240;
+    pointer-events:auto;
+    margin-left:48.41157690898626%;
+    width:29.21180719108182%;
+    height:30.84087491095222%;
+    margin-top:0%;
+}
+.outer_q208{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:240;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q209{
+    position:relative;
+    z-index:239;
+    pointer-events:auto;
+    margin-left:65.9444182760245%;
+    width:9.695399591772649%;
+    height:15.967916413814939%;
+    margin-top:18.579578165070398%;
+}
+.outer_q209{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:239;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q210{
+    position:relative;
+    z-index:238;
+    pointer-events:auto;
+    margin-left:0%;
+    width:50.14130946773437%;
+    height:32.033455581646926%;
+    margin-top:67.2528392735647%;
+}
+.outer_q210{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:238;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q211{
+    position:relative;
+    z-index:237;
+    pointer-events:auto;
+    margin-left:22.24315695818287%;
+    width:3.742084052964883%;
+    height:3.772987520118203%;
+    margin-top:79.81368084995029%;
+}
+.outer_q211{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:237;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q212{
+    position:relative;
+    z-index:236;
+    pointer-events:auto;
+    margin-left:0%;
+    width:64.42141623488777%;
+    height:33.91467243608348%;
+    margin-top:65.42104987700846%;
+}
+.outer_q212{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:236;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q213{
+    position:relative;
+    z-index:235;
+    pointer-events:auto;
+    margin-left:0%;
+    width:64.34029413304025%;
+    height:33.80385741801008%;
+    margin-top:65.68273407651647%;
+}
+.outer_q213{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:235;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q214{
+    position:relative;
+    z-index:232;
+    pointer-events:auto;
+    margin-left:67.77620767258075%;
+    width:16.085727743758838%;
+    height:1.9920318725099602%;
+    margin-top:75.36504945831373%;
+}
+.outer_q214{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:232;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q215{
+    position:relative;
+    z-index:229;
+    pointer-events:auto;
+    margin-left:47.88820850997018%;
+    width:17.810226618516776%;
+    height:0.8812432389646712%;
+    margin-top:76.93515465536193%;
+}
+.outer_q215{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:229;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q216{
+    position:relative;
+    z-index:228;
+    pointer-events:auto;
+    margin-left:85.04736484011096%;
+    width:14.677866750405611%;
+    height:7.448352286219361%;
+    margin-top:78.76694405191814%;
+}
+.outer_q216{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:228;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q217{
+    position:relative;
+    z-index:227;
+    pointer-events:auto;
+    margin-left:83.73894384257079%;
+    width:4.411995603705448%;
+    height:16.48769161763542%;
+    margin-top:79.55199665044225%;
+}
+.outer_q217{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:227;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q218{
+    position:relative;
+    z-index:226;
+    pointer-events:auto;
+    margin-left:82.69220704453869%;
+    width:14.110012037473185%;
+    height:2.8627213002295453%;
+    margin-top:66.99115507405666%;
+}
+.outer_q218{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:226;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q219{
+    position:relative;
+    z-index:225;
+    pointer-events:auto;
+    margin-left:80.33704924896635%;
+    width:10.103626943005182%;
+    height:5.00514498298198%;
+    margin-top:48.934945308002305%;
+}
+.outer_q219{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:225;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q220{
+    position:relative;
+    z-index:224;
+    pointer-events:auto;
+    margin-left:30.355367142931925%;
+    width:14.117862563458425%;
+    height:4.261101290203424%;
+    margin-top:82.69220704453869%;
+}
+.outer_q220{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:224;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q221{
+    position:relative;
+    z-index:223;
+    pointer-events:auto;
+    margin-left:33.757261736536364%;
+    width:9.792222745590626%;
+    height:2.9524286958127757%;
+    margin-top:66.4677866750406%;
+}
+.outer_q221{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:223;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q222{
+    position:relative;
+    z-index:222;
+    pointer-events:auto;
+    margin-left:43.43957711833361%;
+    width:36.5598995132674%;
+    height:4.34289332735284%;
+    margin-top:58.0938922907835%;
+}
+.outer_q222{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:222;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q223{
+    position:relative;
+    z-index:221;
+    pointer-events:auto;
+    margin-left:37.682524729156874%;
+    width:5.859109226984878%;
+    height:4.3481702329753835%;
+    margin-top:52.598524101114805%;
+}
+.outer_q223{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:221;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q224{
+    position:relative;
+    z-index:218;
+    pointer-events:auto;
+    margin-left:79.81368084995029%;
+    width:4.273302977966191%;
+    height:10.925833091475159%;
+    margin-top:83.7389438425708%;
+}
+.outer_q224{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:218;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q225{
+    position:relative;
+    z-index:217;
+    pointer-events:auto;
+    margin-left:53.90694509865496%;
+    width:0.5129010310357462%;
+    height:1.4221260652753225%;
+    margin-top:83.21557544355474%;
+}
+.outer_q225{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:217;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q226{
+    position:relative;
+    z-index:216;
+    pointer-events:auto;
+    margin-left:53.64526089914692%;
+    width:0.7327157586224945%;
+    height:1.1899422178834331%;
+    margin-top:88.97262783273148%;
+}
+.outer_q226{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:216;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q227{
+    position:relative;
+    z-index:215;
+    pointer-events:auto;
+    margin-left:55.21536609619515%;
+    width:1.0258020620714927%;
+    height:1.3456109337484499%;
+    margin-top:91.32778562830381%;
+}
+.outer_q227{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:215;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q228{
+    position:relative;
+    z-index:214;
+    pointer-events:auto;
+    margin-left:58.09389229078352%;
+    width:1.6695451928612561%;
+    height:0.6596132028178676%;
+    margin-top:92.636206625844%;
+}
+.outer_q228{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:214;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q229{
+    position:relative;
+    z-index:213;
+    pointer-events:auto;
+    margin-left:54.691997697179076%;
+    width:3.24488407389962%;
+    height:1.3456109337484499%;
+    margin-top:89.75768043125562%;
+}
+.outer_q229{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:213;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q230{
+    position:relative;
+    z-index:212;
+    pointer-events:auto;
+    margin-left:55.73873449521118%;
+    width:2.048987282147904%;
+    height:0.7229360702883829%;
+    margin-top:86.09410163814309%;
+}
+.outer_q230{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:212;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q231{
+    position:relative;
+    z-index:211;
+    pointer-events:auto;
+    margin-left:62.54252368242007%;
+    width:3.480399853456849%;
+    height:5.23996728318514%;
+    margin-top:87.66420683519131%;
+}
+.outer_q231{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:211;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q232{
+    position:relative;
+    z-index:210;
+    pointer-events:auto;
+    margin-left:58.09389229078349%;
+    width:0.023551577955723033%;
+    margin-top:83.73894384257079%;
+    height:NaN%;
+}
+.outer_q232{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:210;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q233{
+    position:relative;
+    z-index:209;
+    pointer-events:auto;
+    margin-left:58.09389229078352%;
+    width:0.034018945936044404%;
+    height:0.018469169678900294%;
+    margin-top:83.73894384257083%;
+}
+.outer_q233{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:209;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q234{
+    position:relative;
+    z-index:208;
+    pointer-events:auto;
+    margin-left:47.888208509970184%;
+    width:36.16999005600043%;
+    height:15.506187171842432%;
+    margin-top:82.69220704453868%;
+}
+.outer_q234{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:208;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q235{
+    position:relative;
+    z-index:207;
+    pointer-events:auto;
+    margin-left:58.09389229078352%;
+    width:0.04186947192128542%;
+    height:0.018469169678900294%;
+    margin-top:83.73894384257083%;
+}
+.outer_q235{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:207;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q236{
+    position:relative;
+    z-index:206;
+    pointer-events:auto;
+    margin-left:58.09389229078349%;
+    width:0.09420631182289213%;
+    height:0.044853697791615%;
+    margin-top:83.73894384257079%;
+}
+.outer_q236{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:206;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q237{
+    position:relative;
+    z-index:205;
+    pointer-events:auto;
+    margin-left:58.09389229078352%;
+    width:0.04186947192128542%;
+    height:0.018469169678900294%;
+    margin-top:83.73894384257083%;
+}
+.outer_q237{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:205;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q238{
+    position:relative;
+    z-index:204;
+    pointer-events:auto;
+    margin-left:58.093892290783494%;
+    width:0.018317893965562364%;
+    margin-top:83.7389438425708%;
+    height:NaN%;
+}
+.outer_q238{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:204;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q239{
+    position:relative;
+    z-index:201;
+    pointer-events:auto;
+    margin-left:78.7669440519182%;
+    width:6.055372376615904%;
+    height:4.978760454869265%;
+    margin-top:79.29031245093427%;
+}
+.outer_q239{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:201;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q240{
+    position:relative;
+    z-index:200;
+    pointer-events:auto;
+    margin-left:80.33704924896638%;
+    width:4.710315591144608%;
+    height:19.10767525922799%;
+    margin-top:60.449050086355804%;
+}
+.outer_q240{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:200;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q241{
+    position:relative;
+    z-index:199;
+    pointer-events:auto;
+    margin-left:81.90715444601459%;
+    width:16.860312974302623%;
+    height:6.06580301311311%;
+    margin-top:90.01936463076363%;
+}
+.outer_q241{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:199;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q242{
+    position:relative;
+    z-index:198;
+    pointer-events:auto;
+    margin-left:60.18736588684779%;
+    width:14.625529910504014%;
+    height:7.8467586607213535%;
+    margin-top:70.39304966766112%;
+}
+.outer_q242{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:198;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q243{
+    position:relative;
+    z-index:197;
+    pointer-events:auto;
+    margin-left:79.81368084995033%;
+    width:3.1114251321505226%;
+    height:11.004986675813303%;
+    margin-top:43.96294551734969%;
+}
+.outer_q243{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:197;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q244{
+    position:relative;
+    z-index:196;
+    pointer-events:auto;
+    margin-left:85.04736484011096%;
+    width:5.720416601245617%;
+    height:2.3983536054457666%;
+    margin-top:76.93515465536191%;
+}
+.outer_q244{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:196;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q245{
+    position:relative;
+    z-index:195;
+    pointer-events:auto;
+    margin-left:84.78568064060296%;
+    width:8.159313340660495%;
+    height:6.06580301311311%;
+    margin-top:79.29031245093425%;
+}
+.outer_q245{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:195;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q246{
+    position:relative;
+    z-index:194;
+    pointer-events:auto;
+    margin-left:43.17789291882557%;
+    width:3.093107238184959%;
+    height:23.550829793409147%;
+    margin-top:58.355576490291526%;
+}
+.outer_q246{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:194;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q247{
+    position:relative;
+    z-index:193;
+    pointer-events:auto;
+    margin-left:78.76694405191814%;
+    width:21.219971738106455%;
+    height:53.52365372945305%;
+    margin-top:42.91620871931753%;
+}
+.outer_q247{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:193;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q248{
+    position:relative;
+    z-index:192;
+    pointer-events:auto;
+    margin-left:27.215156748835522%;
+    width:20.055477050295714%;
+    height:53.39436954170075%;
+    margin-top:46.318103312922%;
+}
+.outer_q248{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:192;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q249{
+    position:relative;
+    z-index:189;
+    pointer-events:auto;
+    margin-left:43.439577118333624%;
+    width:50.348039985345714%;
+    height:57.97208516925675%;
+    margin-top:41.607787721777385%;
+}
+.outer_q249{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:189;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q250{
+    position:relative;
+    z-index:188;
+    pointer-events:auto;
+    margin-left:50.2433663055425%;
+    width:29.086198775317964%;
+    height:15.975831772248753%;
+    margin-top:41.08441932276132%;
+}
+.outer_q250{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:188;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q251{
+    position:relative;
+    z-index:170;
+    pointer-events:auto;
+    margin-left:13px;
+    width:127.77px;
+    min-width:127.77px;
+    height:204.11px;
+    margin-top:-204.21000000000004px;
+    margin-bottom:0.10000000000002274px;
+    min-height:204.11px;
+}
+.outer_q251{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:170;
+}
+.q252{
+    position:relative;
+    z-index:184;
+    pointer-events:auto;
+    opacity:0.30000001192092896;
+    margin-left:47px;
+    width:55.48px;
+    min-width:55.48px;
+    height:67.59px;
+    margin-top:137px;
+    margin-bottom:-0.4800000000000182px;
+    min-height:67.59px;
+}
+.outer_q252{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:184;
+}
+.q253{
+    position:relative;
+    z-index:185;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q253{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:185;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q254{
+    position:relative;
+    z-index:186;
+    pointer-events:auto;
+    margin-left:28.17562808170933%;
+    width:38.51451827502545%;
+    height:33.114497084905196%;
+    margin-top:107.22391797761607%;
+}
+.outer_q254{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:186;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q255{
+    position:relative;
+    z-index:183;
+    pointer-events:auto;
+    margin-left:36.78484777334274%;
+    width:43.421773499256496%;
+    height:33.114497084905196%;
+    margin-top:107.22391797761607%;
+}
+.outer_q255{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:183;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q256{
+    position:relative;
+    z-index:182;
+    pointer-events:auto;
+    margin-left:45.39406746497612%;
+    width:12.178132581983247%;
+    height:29.25383371711332%;
+    margin-top:61.82985051263988%;
+}
+.outer_q256{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:182;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q257{
+    position:relative;
+    z-index:181;
+    pointer-events:auto;
+    margin-left:10.95718869844252%;
+    width:40.55725131094938%;
+    height:68.14952721571701%;
+    margin-top:0.7826563356030372%;
+}
+.outer_q257{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:181;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q258{
+    position:relative;
+    z-index:180;
+    pointer-events:auto;
+    margin-left:36.78484777334272%;
+    width:9.509274477576895%;
+    height:22.242908235755227%;
+    margin-top:75.13500821789152%;
+}
+.outer_q258{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:180;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q259{
+    position:relative;
+    z-index:179;
+    pointer-events:auto;
+    margin-left:10.17453236283948%;
+    width:47.32722861391564%;
+    height:69.01180735877713%;
+    margin-top:0%;
+}
+.outer_q259{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:179;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q260{
+    position:relative;
+    z-index:178;
+    pointer-events:auto;
+    margin-left:64.96047585505208%;
+    width:33.8107536980512%;
+    height:60.63397187790897%;
+    margin-top:14.087814040854667%;
+}
+.outer_q260{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:178;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q261{
+    position:relative;
+    z-index:177;
+    pointer-events:auto;
+    margin-left:54.78594349221257%;
+    width:9.517101040932925%;
+    height:49.13037087844789%;
+    margin-top:29.740940752915392%;
+}
+.outer_q261{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:177;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q262{
+    position:relative;
+    z-index:176;
+    pointer-events:auto;
+    margin-left:44.61141112937308%;
+    width:7.083039837207481%;
+    height:27.51947479300377%;
+    margin-top:33.654222430930574%;
+}
+.outer_q262{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:176;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q263{
+    position:relative;
+    z-index:175;
+    pointer-events:auto;
+    margin-left:0%;
+    width:47.91422086561793%;
+    height:48.08681593258537%;
+    margin-top:28.95828441731237%;
+}
+.outer_q263{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:175;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q264{
+    position:relative;
+    z-index:174;
+    pointer-events:auto;
+    margin-left:61.0471941770369%;
+    width:39.28934804727247%;
+    height:61.177796286316195%;
+    margin-top:12.522501369648595%;
+}
+.outer_q264{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:174;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q265{
+    position:relative;
+    z-index:173;
+    pointer-events:auto;
+    margin-left:51.655318149800415%;
+    width:18.815058307897%;
+    height:50.03674489245994%;
+    margin-top:28.958284417312356%;
+}
+.outer_q265{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:173;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q266{
+    position:relative;
+    z-index:172;
+    pointer-events:auto;
+    margin-left:43.046098458167044%;
+    width:15.214839164123044%;
+    height:49.3851354661702%;
+    margin-top:32.08890975972452%;
+}
+.outer_q266{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:172;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q267{
+    position:relative;
+    z-index:171;
+    pointer-events:auto;
+    margin-left:0%;
+    width:50.55177271660016%;
+    height:52.241438440056825%;
+    margin-top:28.17562808170933%;
+}
+.outer_q267{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:171;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q268{
+    position:relative;
+    z-index:134;
+    pointer-events:auto;
+    margin-left:0px;
+    width:532.55px;
+    min-width:532.55px;
+    height:0.63px;
+    margin-top:-1.2100000000000364px;
+    margin-bottom:0.5800000000000409px;
+    min-height:0.63px;
+}
+.outer_q268{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:134;
+}
+.q269{
+    position:relative;
+    z-index:135;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q269{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:135;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q270{
+    position:relative;
+    z-index:276;
+    pointer-events:auto;
+    margin-left:156px;
+    width:105px;
+    min-width:105px;
+    margin-top:-597px;
+    margin-bottom:578px;
+    min-height:19px;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    color:rgba(45, 55, 72, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:16px;
+    line-height:19px;
+}
+.outer_q270{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:276;
+}
+.q271{
+    position:relative;
+    z-index:275;
+    pointer-events:auto;
+    margin-left:156px;
+    width:292px;
+    min-width:292px;
+    margin-top:-576px;
+    margin-bottom:541px;
+    min-height:35px;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    color:rgba(26, 32, 44, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:700;
+    font-size:30px;
+    line-height:37px;
+}
+.outer_q271{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:275;
+}
+.q272{
+    position:relative;
+    z-index:264;
+    pointer-events:auto;
+    margin-left:156px;
+    width:350px;
+    min-width:350px;
+    height:215px;
+    margin-top:-517px;
+    margin-bottom:302px;
+    min-height:215px;
+}
+.outer_q272{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:264;
+}
+.q273{
+    position:relative;
+    z-index:274;
+    pointer-events:auto;
+    margin-left:89.71428571428571%;
+    width:6.285714285714286%;
+    height:8.525581395348835%;
+    margin-top:38.857142857142854%;
+}
+.outer_q273{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:274;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q274{
+    position:relative;
+    z-index:273;
+    pointer-events:auto;
+    margin-left:0%;
+    width:4.285714285714286%;
+    height:6.976744186046512%;
+    margin-top:56.857142857142854%;
+}
+.outer_q274{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:273;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q275{
+    position:relative;
+    z-index:272;
+    pointer-events:auto;
+    margin-left:7.428571428571429%;
+    width:26.285714285714285%;
+    height:7.441860465116279%;
+    margin-top:56.857142857142854%;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    color:rgba(45, 55, 72, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:14px;
+    line-height:17px;
+}
+.outer_q275{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:272;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q276{
+    position:relative;
+    z-index:271;
+    pointer-events:auto;
+    margin-left:67.71428571428571%;
+    width:32%;
+    height:7.441860465116279%;
+    margin-top:56.857142857142854%;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    color:rgba(44, 82, 130, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:14px;
+    line-height:17px;
+}
+.outer_q276{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:271;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q277{
+    position:relative;
+    z-index:270;
+    pointer-events:auto;
+    margin-left:5.714285714285714%;
+    width:15.714285714285714%;
+    height:7.441860465116279%;
+    margin-top:40.285714285714285%;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    color:rgba(0, 0, 0, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:14px;
+    line-height:17px;
+}
+.outer_q277{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:270;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q278{
+    position:relative;
+    z-index:269;
+    pointer-events:auto;
+    margin-left:5.714285714285714%;
+    width:42%;
+    height:7.441860465116279%;
+    margin-top:13.428571428571429%;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    color:rgba(45, 55, 72, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:14px;
+    line-height:17px;
+}
+.outer_q278{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:269;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q279{
+    position:relative;
+    z-index:268;
+    pointer-events:auto;
+    margin-left:0%;
+    width:11.428571428571429%;
+    height:8.837209302325581%;
+    margin-top:26%;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    color:rgba(74, 85, 104, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:16px;
+    line-height:19px;
+}
+.outer_q279{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:268;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q280{
+    position:relative;
+    z-index:267;
+    pointer-events:auto;
+    margin-left:0%;
+    width:20.285714285714285%;
+    height:8.837209302325581%;
+    margin-top:0%;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    color:rgba(74, 85, 104, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:16px;
+    line-height:19px;
+}
+.outer_q280{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:267;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q281{
+    position:relative;
+    z-index:266;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:23.25581395348837%;
+    margin-top:8.571428571428571%;
+    border:1px solid rgba(255, 214, 0, 1);
+    box-sizing:border-box;
+    border-radius:10px;
+}
+.outer_q281{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:266;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q282{
+    position:relative;
+    z-index:265;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:23.25581395348837%;
+    margin-top:34.57142857142857%;
+    border:1px solid rgba(255, 214, 0, 1);
+    box-sizing:border-box;
+    border-radius:10px;
+}
+.outer_q282{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:265;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q283{
+    position:relative;
+    z-index:3;
+    pointer-events:auto;
+    margin-left:710px;
+    width:120px;
+    min-width:120px;
+    height:15px;
+    margin-top:-292px;
+    margin-bottom:277px;
+    min-height:15px;
+}
+.outer_q283{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:3;
+}
+.q284{
+    position:relative;
+    z-index:4;
+    pointer-events:auto;
+    margin-left:0px;
+    width:120px;
+    min-width:120px;
+    height:15px;
+    margin-top:0px;
+    margin-bottom:0px;
+    min-height:15px;
+}
+.outer_q284{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:4;
+}
+.q285{
+    position:relative;
+    z-index:5;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+.outer_q285{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:5;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q286{
+    position:relative;
+    z-index:277;
+    pointer-events:auto;
+    margin-left:158px;
+    width:347px;
+    min-width:347px;
+    height:50px;
+    margin-top:-275px;
+    margin-bottom:225px;
+    min-height:50px;
+    border-radius:10px;
+}
+.outer_q286{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:277;
+}
+.q287{
+    position:relative;
+    z-index:279;
+    pointer-events:auto;
+    margin-left:39.481268011527376%;
+    width:21.32564841498559%;
+    height:38%;
+    margin-top:4.322766570605188%;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    color:rgba(12, 11, 13, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:700;
+    font-size:16px;
+    line-height:19px;
+}
+.outer_q287{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:279;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q288{
+    position:relative;
+    z-index:278;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+    background-color:rgba(255, 214, 0, 1);
+    border-radius:10px;
+}
+.outer_q288{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:278;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q289{
+    position:relative;
+    z-index:280;
+    pointer-events:auto;
+    margin-left:158px;
+    width:347px;
+    min-width:347px;
+    height:50px;
+    margin-top:-210px;
+    margin-bottom:160px;
+    min-height:50px;
+    border-radius:10px;
+}
+.outer_q289{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:280;
+}
+.q290{
+    position:relative;
+    z-index:283;
+    pointer-events:auto;
+    margin-left:22.76657060518732%;
+    width:5.763688760806916%;
+    height:40%;
+    margin-top:4.322766570605188%;
+}
+.outer_q290{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:283;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q291{
+    position:relative;
+    z-index:282;
+    pointer-events:auto;
+    margin-left:31.70028818443804%;
+    width:45.821325648414984%;
+    height:38%;
+    margin-top:4.322766570605188%;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    color:rgba(255, 255, 255, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:700;
+    font-size:16px;
+    line-height:19px;
+}
+.outer_q291{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:282;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q292{
+    position:relative;
+    z-index:281;
+    pointer-events:auto;
+    margin-left:0%;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+    background-color:rgba(45, 55, 72, 1);
+    border-radius:10px;
+}
+.outer_q292{
+    position:absolute;
+    display:flex;
+    pointer-events:none;
+    z-index:281;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.q293-1{
+    color:rgba(97, 97, 97, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:16px;
+    line-height:19px;
+}
+.q293-2{
+    color:rgba(0, 0, 0, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:16px;
+    line-height:19px;
+}
+.q293-3{
+    color:rgba(43, 108, 176, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:16px;
+    line-height:19px;
+}
+.q293{
+    position:relative;
+    z-index:263;
+    pointer-events:auto;
+    margin-left:195px;
+    width:225px;
+    min-width:225px;
+    margin-top:-104px;
+    margin-bottom:85px;
+    min-height:19px;
+    text-align:left;
+    color:rgba(0, 0, 0, 1);
+    font-style:normal;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:16px;
+    line-height:19px;
+}
+.outer_q293{
+    position:relative;
+    display:flex;
+    pointer-events:none;
+    z-index:263;
+}
