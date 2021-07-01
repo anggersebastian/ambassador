@@ -2721,9 +2721,9 @@
           {{-- <div
 ewmail///////////////////////////////////////////////////////////////////                        
           > --}}
-          <input type="email" id="q306"
+          <input type="email" id="email"
           data-name="Rectangle 3"
-          alt="Rectangle 3"
+          alt="Rectangle 3" name="email"
           class="email" required>
           {{-- </div> --}}
           </div>
@@ -2731,7 +2731,7 @@ ewmail///////////////////////////////////////////////////////////////////
           {{-- <div
 PASSWORDDDD///////////////////////////////////////////////////////////////////            
           > --}}
-          <input type="password" id="q307"
+          <input type="password" id="password" name="password"
           data-name="Rectangle 2"
           alt="Rectangle 2"
           class="password" required>

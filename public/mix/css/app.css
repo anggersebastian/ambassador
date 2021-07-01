@@ -1053,8 +1053,8 @@ a:focus {
 }
 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
   z-index: 5;
-  color: #fff;
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
+  color:black;
   font-size: 17px;
   margin-top: 10px;
 }
@@ -4844,7 +4844,7 @@ table.text-center th {
   background-color: #ffd600;
 }
 .skin-blue .main-header .navbar .nav > li > a {
-  color: #ffffff;
+  color: black;
 }
 .skin-blue .main-header .navbar .nav > li > a:hover,
 .skin-blue .main-header .navbar .nav > li > a:active,
@@ -4854,17 +4854,17 @@ table.text-center th {
 .skin-blue .main-header .navbar .nav .open > a:focus,
 .skin-blue .main-header .navbar .nav > .active > a {
   background: rgba(0, 0, 0, 0.1);
-  color: #f6f6f6;
+  color: black;
 }
 .skin-blue .main-header .navbar .sidebar-toggle {
   color: #ffffff;
 }
 .skin-blue .main-header .navbar .sidebar-toggle:hover {
-  color: #f6f6f6;
+  color: black;
   background: rgba(0, 0, 0, 0.1);
 }
 .skin-blue .main-header .navbar .sidebar-toggle {
-  color: #fff;
+  color: black;
 }
 .skin-blue .main-header .navbar .sidebar-toggle:hover {
   background-color: #ffd600;
