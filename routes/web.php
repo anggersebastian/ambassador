@@ -22,6 +22,7 @@ Route::group(['prefix' => 'backend', 'namespace' => 'Backend', 'middleware' => [
     Route::post('reset-password', 'Auth\LoginController@resetPassword');
     Route::get('reset-token/{token?}', 'Auth\LoginController@resetToken');
     Route::post('change-password/{token?}', 'Auth\LoginController@changePass');
+    Route::get('register', 'Auth\LoginController@register');
 });
 
 Route::group(['prefix' => 'backend', 'namespace' => 'Backend','middleware' => ['auth.admin']], function() {

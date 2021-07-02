@@ -20,6 +20,10 @@ class LoginController extends Controller{
 		$this->adminUser	= $adminUser;
 	}
 
+    public function register(){
+        return view('backend.auth.register');
+    }
+    
     public function index(){
         return view('backend.auth.login');
     }
